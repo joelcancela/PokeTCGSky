@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+:root {
+        color-scheme: dark;
+}
+
+body {
+        min-width: 320px;
+        margin: 0;
+}
+
+button,
+input,
+select {
+        font: inherit;
+}
+
+/* The animated TCG cards also use Bootstrap's .card class. */
+.card.interactive {
+        border: 0;
+        background-color: transparent;
+}
+
+/* Keep the active card inside its grid column; scale is handled by transform. */
+.card.interactive.active .card__translater img {
+        width: 100% !important;
+}
+
+.card.interactive .card__rotator * {
+        image-rendering: auto;
+}

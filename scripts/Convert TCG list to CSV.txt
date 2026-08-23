@@ -1,0 +1,10 @@
+Convert TCG list to CSV
+
+Regex: "[\w|-]+ (\d+)"
+Replace: ",$1"
+
+Regex: "(\d+) "
+Replace: "$1,"
+
+Regex: " ,"
+Replace: ","

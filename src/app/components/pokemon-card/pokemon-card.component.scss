@@ -1,0 +1,108 @@
+/* Contour HUD de la tuile ; ni overflow, ni backdrop-filter, ni transform : la carte active est en position fixed. */
+:host {
+        display: block;
+        width: 100%;
+        min-width: 0;
+        padding: 0.6rem 0.6rem 0.75rem;
+        border: var(--sf-hud-border);
+        background: var(--sf-panel);
+        box-shadow: var(--sf-glow);
+        transition: border-color 150ms ease, box-shadow 250ms ease;
+}
+
+:host(:hover) {
+        border-color: var(--sf-turquoise);
+        box-shadow: var(--sf-glow-hover);
+}
+
+.card.interactive {
+        width: 100%;
+        min-width: 0;
+}
+
+.card.interactive .card__translater {
+        -webkit-transform: translate3d(var(--translate-x), var(--translate-y), var(--translate-z));
+        transform: translate3d(var(--translate-x), var(--translate-y), var(--translate-z));
+}
+
+.card.interactive.active:not(.showcase) {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: min(82vw, 520px);
+        z-index: 200;
+        transform: translate3d(-50%, -50%, 0.01px);
+}
+
+.card-info {
+        min-height: 5.25rem;
+        padding: 0.7rem 0.15rem 0;
+        color: var(--sf-fg);
+}
+
+.card-info__heading,
+.card-info__details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5rem;
+}
+
+.card-info__heading strong {
+        overflow: hidden;
+        color: #fff;
+        font-size: 0.95rem;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+}
+
+.card-info__heading .sf-chip-wrap,
+.card-info__details .sf-chip-wrap {
+        flex: 0 0 auto;
+}
+
+.card-info__details {
+        flex-wrap: wrap;
+        gap: 0.3rem;
+        justify-content: flex-start;
+        margin-top: 0.3rem;
+        min-width: 0;
+        padding: 2px;
+        color: var(--sf-muted);
+        font-size: 0.72rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+}
+
+.card-info__details > span:first-child {
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+}
+
+.card-info__details .sf-chip-wrap {
+        flex: 0 1 auto;
+        max-width: 100%;
+        min-width: 0;
+}
+
+.card-info__details .sf-chip {
+        display: block;
+        max-width: 100%;
+        line-height: 1.3;
+        overflow-wrap: anywhere;
+        text-align: left;
+        white-space: normal;
+}
+
+.location-label {
+        display: inline-block;
+        max-width: 100%;
+        margin-top: 0.45rem;
+        overflow: hidden;
+        color: var(--sf-turquoise);
+        font-size: 0.7rem;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+}
