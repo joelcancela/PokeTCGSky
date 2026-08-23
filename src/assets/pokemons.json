@@ -1,0 +1,5591 @@
+[
+    {
+        "id": "me2-56",
+        "name": "Mega Gengar ex",
+        "qty": 2,
+        "holo": true,
+        "location": "Gengar Deck",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 2",
+            "MEGA",
+            "ex"
+        ],
+        "hp": "350",
+        "types": [
+            "Darkness"
+        ],
+        "abilities": [
+            {
+                "name": "Shadowy Concealment",
+                "text": "If 1 of your Darkness Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon ex, that player takes 1 fewer Prize card. The effect of Shadowy Concealment doesn't stack.",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Void Gale",
+                "cost": [
+                    "Darkness",
+                    "Darkness"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "230",
+                "text": "Move an Energy from this Pokémon to 1 of your Benched Pokémon."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "me2",
+            "name": "Phantasmal Flames",
+            "series": "Mega Evolution",
+            "printedTotal": 94,
+            "total": 130,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "PFL",
+            "releaseDate": "2025/11/14",
+            "updatedAt": "2025/09/25 15:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/me2/symbol.png",
+                "logo": "https://images.pokemontcg.io/me2/logo.png"
+            }
+        },
+        "number": "56",
+        "rarity": "Double Rare",
+        "nationalPokedexNumbers": [
+            94
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/me2/56.png",
+            "large": "https://images.pokemontcg.io/me2/56_hires.png"
+        }
+    },
+    {
+        "id": "swsh8-156",
+        "name": "Gengar V",
+        "qty": 1,
+        "holo": true,
+        "location": "Gengar Deck",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic",
+            "V",
+            "Single Strike"
+        ],
+        "hp": "210",
+        "types": [
+            "Darkness"
+        ],
+        "attacks": [
+            {
+                "name": "Dark Slumber",
+                "cost": [
+                    "Darkness",
+                    "Darkness"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "40",
+                "text": "Your opponent's Active Pokémon is now Asleep."
+            },
+            {
+                "name": "Pain Explosion",
+                "cost": [
+                    "Darkness",
+                    "Darkness",
+                    "Darkness"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "190",
+                "text": "Put 3 damage counters on this Pokémon."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "swsh8",
+            "name": "Fusion Strike",
+            "series": "Sword & Shield",
+            "printedTotal": 264,
+            "total": 284,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "FST",
+            "releaseDate": "2021/11/12",
+            "updatedAt": "2021/11/12 07:32:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/swsh8/symbol.png",
+                "logo": "https://images.pokemontcg.io/swsh8/logo.png"
+            }
+        },
+        "number": "156",
+        "rarity": "Rare Holo V",
+        "nationalPokedexNumbers": [
+            94
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/swsh8/156.png",
+            "large": "https://images.pokemontcg.io/swsh8/156_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/swsh8-156",
+            "updatedAt": "2025/11/21",
+            "prices": {
+                "averageSellPrice": 7.39,
+                "lowPrice": 2.5,
+                "trendPrice": 6.86,
+                "germanProLow": 0.0,
+                "suggestedPrice": 0.0,
+                "reverseHoloSell": 0.0,
+                "reverseHoloLow": 0.0,
+                "reverseHoloTrend": 0.0,
+                "lowPriceExPlus": 3.29,
+                "avg1": 6.18,
+                "avg7": 7.5,
+                "avg30": 7.1,
+                "reverseHoloAvg1": 0.0,
+                "reverseHoloAvg7": 0.0,
+                "reverseHoloAvg30": 0.0
+            }
+        }
+    },
+    {
+        "id": "mep-27",
+        "name": "Haunter",
+        "supertype": "Pokémon",
+        "holo": true,
+        "qty": 1,
+        "location": "Gengar Deck",
+        "subtypes": [
+            "Stage 1"
+        ],
+        "hp": "100",
+        "types": [
+            "Darkness"
+        ],
+        "attacks": [
+            {
+                "name": "Spooky Shot",
+                "cost": [
+                    "Darkness"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "40",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "me2",
+            "name": "Phantasmal Flames",
+            "series": "Mega Evolution",
+            "printedTotal": 94,
+            "total": 130,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "PFL",
+            "releaseDate": "2025/11/14",
+            "updatedAt": "2025/09/25 15:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/me2/symbol.png",
+                "logo": "https://images.pokemontcg.io/me2/logo.png"
+            }
+        },
+        "number": "55",
+        "rarity": "Uncommon",
+        "nationalPokedexNumbers": [
+            93
+        ],
+        "images": {
+            "small": "https://images.scrydex.com/pokemon/mep-27/medium",
+            "large": "https://images.scrydex.com/pokemon/mep-27/medium"
+        }
+    },
+    {
+        "id": "me3-49",
+        "name": "Haunter",
+        "qty": 1,
+        "holo": true,
+        "location": "Gengar Deck",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 1"
+        ],
+        "hp": "100",
+        "types": [
+            "Darkness"
+        ],
+        "attacks": [
+            {
+                "name": "Haunt",
+                "cost": [
+                    "Darkness"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Place 3 damage counters on your opponent's Active Pokémon."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "me3",
+            "name": "Perfect Order",
+            "series": "Mega Evolution",
+            "printedTotal": 88,
+            "total": 124,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "POR",
+            "releaseDate": "2026/03/27",
+            "updatedAt": "2026/003/26 15:00:00",
+            "images": {
+                "symbol": "https://images.scrydex.com/pokemon/me3-symbol/symbol",
+                "logo": "https://images.scrydex.com/pokemon/me3-logo/logo"
+            }
+        },
+        "number": "49",
+        "rarity": "Common",
+        "nationalPokedexNumbers": [
+            93
+        ],
+        "images": {
+            "small": "https://images.scrydex.com/pokemon/me3-49/small",
+            "large": "https://images.scrydex.com/pokemon/me3-49/large"
+        }
+    },
+    {
+        "id": "me2pt5-123",
+        "name": "Gastly",
+        "holo": true,
+        "qty": 1,
+        "location": "Gengar Deck",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "70",
+        "types": [
+            "Darkness"
+        ],
+        "attacks": [
+            {
+                "name": "Petty Grudge",
+                "cost": [
+                    "Darkness"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "me2pt5",
+            "name": "Ascended Heroes",
+            "series": "Mega Evolution",
+            "printedTotal": 217,
+            "total": 295,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "ASC",
+            "releaseDate": "2026/01/30",
+            "updatedAt": "2026/01/30 15:00:00",
+            "images": {
+                "symbol": "https://images.scrydex.com/pokemon/me2pt5-symbol/symbol",
+                "logo": "https://images.scrydex.com/pokemon/me2pt5-logo/logo"
+            }
+        },
+        "number": "123",
+        "rarity": "Common",
+        "nationalPokedexNumbers": [
+            92
+        ],
+        "images": {
+            "small": "https://images.scrydex.com/pokemon/me2pt5-123/small",
+            "large": "https://images.scrydex.com/pokemon/me2pt5-123/large"
+        }
+    },
+    {
+        "id": "sm12-156",
+        "name": "Arceus & Dialga & Palkia-GX",
+        "qty": 1,
+        "holo": true,
+        "location": "Steel-Water Deck",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic",
+            "TAG TEAM",
+            "GX"
+        ],
+        "hp": "280",
+        "types": [
+            "Dragon"
+        ],
+        "attacks": [
+            {
+                "name": "Ultimate Ray",
+                "cost": [
+                    "Water",
+                    "Metal",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "150",
+                "text": "Search your deck for up to 3 basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck."
+            },
+            {
+                "name": "Altered Creation-GX",
+                "cost": [
+                    "Metal"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "For the rest of this game, your Pokémon's attacks do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance). If this Pokémon has at least 1 extra Water Energy attached to it (in addition to this attack's cost), when your opponent's Active Pokémon is Knocked Out by damage from those attacks, take 1 more Prize card. (You can't use more than 1 GX attack in a game.)"
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fairy",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sm12",
+            "name": "Cosmic Eclipse",
+            "series": "Sun & Moon",
+            "printedTotal": 236,
+            "total": 272,
+            "legalities": {
+                "unlimited": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "CEC",
+            "releaseDate": "2019/11/01",
+            "updatedAt": "2021/09/01 05:37:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sm12/symbol.png",
+                "logo": "https://images.pokemontcg.io/sm12/logo.png"
+            }
+        },
+        "number": "156",
+        "rarity": "Rare Holo GX",
+        "nationalPokedexNumbers": [
+            483,
+            484,
+            493
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sm12/156.png",
+            "large": "https://images.pokemontcg.io/sm12/156_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sm12-156",
+            "updatedAt": "2025/11/18",
+            "prices": {
+                "averageSellPrice": 20.06,
+                "lowPrice": 6.94,
+                "trendPrice": 17.88,
+                "germanProLow": 0.0,
+                "suggestedPrice": 0.0,
+                "reverseHoloSell": 0.0,
+                "reverseHoloLow": 0.0,
+                "reverseHoloTrend": 7.91,
+                "lowPriceExPlus": 9.99,
+                "avg1": 21.0,
+                "avg7": 19.32,
+                "avg30": 19.55,
+                "reverseHoloAvg1": 7.97,
+                "reverseHoloAvg7": 7.61,
+                "reverseHoloAvg30": 7.85
+            }
+        }
+    },
+    {
+        "id": "swshp-SWSH150",
+        "name": "Vaporeon V",
+        "qty": 1,
+        "holo": true,
+        "location": "Steel-Water Deck",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic",
+            "V",
+            "Rapid Strike"
+        ],
+        "hp": "210",
+        "types": [
+            "Water"
+        ],
+        "attacks": [
+            {
+                "name": "Triple Draw",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Draw 3 cards."
+            },
+            {
+                "name": "Splash Jump",
+                "cost": [
+                    "Water",
+                    "Water",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "90",
+                "text": "Switch this Pokémon with 1 of your Benched Pokémon."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Lightning",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "swshp",
+            "name": "SWSH Black Star Promos",
+            "series": "Sword & Shield",
+            "printedTotal": 307,
+            "total": 304,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "PR-SW",
+            "releaseDate": "2019/11/15",
+            "updatedAt": "2022/07/23 20:15:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+                "logo": "https://images.pokemontcg.io/swshp/logo.png"
+            }
+        },
+        "number": "SWSH150",
+        "rarity": "Promo",
+        "nationalPokedexNumbers": [
+            134
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/swshp/SWSH150.png",
+            "large": "https://images.pokemontcg.io/swshp/SWSH150_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/swshp-SWSH150",
+            "updatedAt": "2025/11/21",
+            "prices": {
+                "averageSellPrice": 3.73,
+                "lowPrice": 1.0,
+                "trendPrice": 3.76,
+                "germanProLow": 0.0,
+                "suggestedPrice": 0.0,
+                "reverseHoloSell": 0.0,
+                "reverseHoloLow": 0.0,
+                "reverseHoloTrend": 0.0,
+                "lowPriceExPlus": 2.5,
+                "avg1": 3.0,
+                "avg7": 4.0,
+                "avg30": 3.62,
+                "reverseHoloAvg1": 0.0,
+                "reverseHoloAvg7": 0.0,
+                "reverseHoloAvg30": 0.0
+            }
+        }
+    },
+    {
+        "id": "swshp-SWSH200",
+        "name": "Corviknight V",
+        "qty": 1,
+        "holo": true,
+        "location": "Steel-Water Deck",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic",
+            "V"
+        ],
+        "hp": "210",
+        "types": [
+            "Metal"
+        ],
+        "attacks": [
+            {
+                "name": "Clutch",
+                "cost": [
+                    "Metal"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "30",
+                "text": "During your opponent's next turn, the Defending Pokémon can't retreat."
+            },
+            {
+                "name": "Sky Hurricane",
+                "cost": [
+                    "Metal",
+                    "Metal",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "190",
+                "text": "During your next turn, this Pokémon can't use Sky Hurricane."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "swshp",
+            "name": "SWSH Black Star Promos",
+            "series": "Sword & Shield",
+            "printedTotal": 307,
+            "total": 304,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "PR-SW",
+            "releaseDate": "2019/11/15",
+            "updatedAt": "2022/07/23 20:15:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+                "logo": "https://images.pokemontcg.io/swshp/logo.png"
+            }
+        },
+        "number": "SWSH200",
+        "rarity": "Promo",
+        "nationalPokedexNumbers": [
+            823
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/swshp/SWSH200.png",
+            "large": "https://images.pokemontcg.io/swshp/SWSH200_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/swshp-SWSH200",
+            "updatedAt": "2025/11/18",
+            "prices": {
+                "averageSellPrice": 1.89,
+                "lowPrice": 0.4,
+                "trendPrice": 1.73,
+                "germanProLow": 0.0,
+                "suggestedPrice": 0.0,
+                "reverseHoloSell": 0.0,
+                "reverseHoloLow": 0.0,
+                "reverseHoloTrend": 0.0,
+                "lowPriceExPlus": 0.99,
+                "avg1": 2.5,
+                "avg7": 1.48,
+                "avg30": 1.92,
+                "reverseHoloAvg1": 0.0,
+                "reverseHoloAvg7": 0.0,
+                "reverseHoloAvg30": 0.0
+            }
+        }
+    },
+    {
+        "id": "swsh8-262",
+        "name": "Schoolgirl",
+        "qty": 1,
+        "holo": true,
+        "location": "Steel-Water Deck",
+        "supertype": "Trainer",
+        "subtypes": [
+            "Supporter"
+        ],
+        "set": {
+            "id": "swsh8",
+            "name": "Fusion Strike",
+            "series": "Sword & Shield",
+            "printedTotal": 264,
+            "total": 284,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "FST",
+            "releaseDate": "2021/11/12",
+            "updatedAt": "2021/11/12 07:32:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/swsh8/symbol.png",
+                "logo": "https://images.pokemontcg.io/swsh8/logo.png"
+            }
+        },
+        "number": "262",
+        "rarity": "Rare Ultra",
+        "images": {
+            "small": "https://images.pokemontcg.io/swsh8/262.png",
+            "large": "https://images.pokemontcg.io/swsh8/262_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/swsh8-262",
+            "updatedAt": "2025/11/18",
+            "prices": {
+                "averageSellPrice": 2.93,
+                "lowPrice": 1.0,
+                "trendPrice": 2.96,
+                "germanProLow": 0.0,
+                "suggestedPrice": 0.0,
+                "reverseHoloSell": 0.0,
+                "reverseHoloLow": 0.0,
+                "reverseHoloTrend": 0.0,
+                "lowPriceExPlus": 1.8,
+                "avg1": 2.67,
+                "avg7": 3.14,
+                "avg30": 2.89,
+                "reverseHoloAvg1": 0.0,
+                "reverseHoloAvg7": 0.0,
+                "reverseHoloAvg30": 0.0
+            }
+        }
+    },
+    {
+        "id": "sv3-216",
+        "name": "Revavroom ex",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 1",
+            "ex"
+        ],
+        "hp": "280",
+        "types": [
+            "Metal"
+        ],
+        "abilities": [
+            {
+                "name": "Tune-Up",
+                "text": "This Pokémon may have up to 4 Pokémon Tools attached to it. If it loses this Ability, discard Pokémon Tools from it until only 1 remains.",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Wild Drift",
+                "cost": [
+                    "Metal",
+                    "Metal",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "170",
+                "text": "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv3",
+            "name": "Obsidian Flames",
+            "series": "Scarlet & Violet",
+            "printedTotal": 197,
+            "total": 230,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "releaseDate": "2023/08/11",
+            "updatedAt": "2023/08/11 15:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv3/logo.png"
+            }
+        },
+        "number": "216",
+        "rarity": "Special Illustration Rare",
+        "nationalPokedexNumbers": [
+            966
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv3/216.png",
+            "large": "https://images.pokemontcg.io/sv3/216_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv3-216",
+            "updatedAt": "2025/11/18",
+            "prices": {
+                "averageSellPrice": 1.06,
+                "lowPrice": 0.13,
+                "trendPrice": 1.14,
+                "germanProLow": 0,
+                "suggestedPrice": 0,
+                "reverseHoloSell": 0,
+                "reverseHoloLow": 0,
+                "reverseHoloTrend": 0,
+                "lowPriceExPlus": 0.13,
+                "avg1": 1.16,
+                "avg7": 1.12,
+                "avg30": 1.06,
+                "reverseHoloAvg1": 0,
+                "reverseHoloAvg7": 0,
+                "reverseHoloAvg30": 0
+            }
+        },
+        "qty": 2,
+        "holo": true
+    },
+    {
+        "id": "g1-RC29",
+        "name": "Pikachu",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesTo": [
+            "Raichu"
+        ],
+        "attacks": [
+            {
+                "name": "Nuzzle",
+                "cost": [
+                    "Colorless"
+                ],
+                "damage": "",
+                "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+            },
+            {
+                "name": "Quick Attack",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "damage": "20+",
+                "text": "Flip a coin. If heads, this attack does 10 more damage."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "×2"
+            }
+        ],
+        "resistances": [
+            {
+                "type": "Metal",
+                "value": "-20"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "g1",
+            "name": "Generations",
+            "series": "XY",
+            "printedTotal": 83,
+            "total": 117,
+            "legalities": {
+                "unlimited": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "GEN",
+            "releaseDate": "2016/02/22",
+            "updatedAt": "2020/08/14 09:35:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/g1/symbol.png",
+                "logo": "https://images.pokemontcg.io/g1/logo.png"
+            }
+        },
+        "number": "RC29",
+        "rarity": "Illustration Rare",
+        "nationalPokedexNumbers": [
+            25
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/g1/RC29.png",
+            "large": "https://images.pokemontcg.io/g1/RC29_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/g1-RC29",
+            "updatedAt": "2025/09/17",
+            "prices": {
+                "averageSellPrice": 56.93,
+                "lowPrice": 10,
+                "trendPrice": 73.81,
+                "germanProLow": 0,
+                "suggestedPrice": 0,
+                "reverseHoloSell": 0,
+                "reverseHoloLow": 0,
+                "reverseHoloTrend": 26.04,
+                "lowPriceExPlus": 28,
+                "avg1": 150,
+                "avg7": 53.27,
+                "avg30": 55.59,
+                "reverseHoloAvg1": 39.49,
+                "reverseHoloAvg7": 27.61,
+                "reverseHoloAvg30": 28.16
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "swsh11tg-TG11",
+        "name": "Castform",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "70",
+        "types": [
+            "Colorless"
+        ],
+        "abilities": [
+            {
+                "name": "Weather Reading",
+                "text": "If you have 8 or more Stadium cards in your discard pile, ignore all Energy in this Pokémon's attack costs.",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Weather Force",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "damage": "80",
+                "text": "Draw cards until you have 6 cards in your hand."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "×2"
+            }
+        ],
+        "set": {
+            "id": "swsh11tg",
+            "name": "Lost Origin Trainer Gallery",
+            "series": "Sword & Shield",
+            "printedTotal": 30,
+            "total": 30,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "LOR",
+            "releaseDate": "2022/09/09",
+            "updatedAt": "2022/09/09 13:45:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/swsh11tg/symbol.png",
+                "logo": "https://images.pokemontcg.io/swsh11tg/logo.png"
+            }
+        },
+        "number": "TG11",
+        "rarity": "Illustration Rare",
+        "nationalPokedexNumbers": [
+            351
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/swsh11tg/TG11.png",
+            "large": "https://images.pokemontcg.io/swsh11tg/TG11_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/swsh11tg-TG11",
+            "updatedAt": "2025/09/17",
+            "prices": {
+                "averageSellPrice": 1.25,
+                "lowPrice": 0.3,
+                "trendPrice": 1.26,
+                "germanProLow": 0,
+                "suggestedPrice": 0,
+                "reverseHoloSell": 0,
+                "reverseHoloLow": 0,
+                "reverseHoloTrend": 0,
+                "lowPriceExPlus": 0.5,
+                "avg1": 1.06,
+                "avg7": 1.25,
+                "avg30": 1.26,
+                "reverseHoloAvg1": 0,
+                "reverseHoloAvg7": 0,
+                "reverseHoloAvg30": 0
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "me3-93",
+        "name": "Dedenne",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "70",
+        "types": [
+            "Lightning"
+        ],
+        "attacks": [
+            {
+                "name": "Tail Generator",
+                "cost": [
+                    "Lightning"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Choose Basic Lightning Energy cards from your discard pile up to the amount of Energy attached to all of your opponent's Pokémon and attach them to your Lightning Pokémon in any way you like."
+            },
+            {
+                "name": "Thunder Shock",
+                "cost": [
+                    "Lightning",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30",
+                "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "me3",
+            "name": "Perfect Order",
+            "series": "Mega Evolution",
+            "printedTotal": 88,
+            "total": 124,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "POR",
+            "releaseDate": "2026/03/27",
+            "updatedAt": "2026/003/26 15:00:00",
+            "images": {
+                "symbol": "https://images.scrydex.com/pokemon/me3-symbol/symbol",
+                "logo": "https://images.scrydex.com/pokemon/me3-logo/logo"
+            }
+        },
+        "number": "93",
+        "rarity": "Illustration Rare",
+        "nationalPokedexNumbers": [
+            702
+        ],
+        "images": {
+            "small": "https://images.scrydex.com/pokemon/me3-93/small",
+            "large": "https://images.scrydex.com/pokemon/me3-93/large"
+        },
+        "qty": 1
+    },
+    {
+        "id": "sm115-31",
+        "name": "Mewtwo-GX",
+        "holo": true,
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic",
+            "GX"
+        ],
+        "hp": "180",
+        "types": [
+            "Psychic"
+        ],
+        "attacks": [
+            {
+                "name": "Super Psy Bolt",
+                "cost": [
+                    "Psychic",
+                    "Psychic",
+                    "Colorless"
+                ],
+                "damage": "110",
+                "text": ""
+            },
+            {
+                "name": "Psycrush-GX",
+                "cost": [
+                    "Psychic",
+                    "Psychic",
+                    "Colorless"
+                ],
+                "damage": "120",
+                "text": "Discard all Energy from your opponent's Active Pokémon. (You can't use more than 1 GX attack in a game.)"
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Psychic",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sm115",
+            "name": "Hidden Fates",
+            "series": "Sun & Moon",
+            "printedTotal": 68,
+            "total": 69,
+            "legalities": {
+                "unlimited": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "HIF",
+            "releaseDate": "2019/08/23",
+            "updatedAt": "2021/09/01 05:37:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sm115/symbol.png",
+                "logo": "https://images.pokemontcg.io/sm115/logo.png"
+            }
+        },
+        "number": "31",
+        "rarity": "Rare Holo GX",
+        "nationalPokedexNumbers": [
+            150
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sm115/31.png",
+            "large": "https://images.pokemontcg.io/sm115/31_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sm115-31",
+            "updatedAt": "2022/01/17",
+            "prices": {
+                "averageSellPrice": 6.82,
+                "lowPrice": 3.33,
+                "trendPrice": 7.51,
+                "reverseHoloTrend": 0,
+                "lowPriceExPlus": 3.9,
+                "avg1": 6.8,
+                "avg7": 7.92,
+                "avg30": 5.23
+            }
+        },
+        "qty": 1,
+        "location": ""
+    },
+    {
+        "id": "sm115-9",
+        "name": "Charizard-GX",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 2",
+            "GX"
+        ],
+        "hp": "250",
+        "types": [
+            "Fire"
+        ],
+        "attacks": [
+            {
+                "name": "Flamethrower",
+                "cost": [
+                    "Fire",
+                    "Fire",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "damage": "140",
+                "text": ""
+            },
+            {
+                "name": "Flare Blitz-GX",
+                "cost": [
+                    "Fire",
+                    "Fire",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "damage": "300",
+                "text": "(You can't use more than 1 GX attack in a game.)"
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Water",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sm115",
+            "name": "Hidden Fates",
+            "series": "Sun & Moon",
+            "printedTotal": 68,
+            "total": 69,
+            "legalities": {
+                "unlimited": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "HIF",
+            "releaseDate": "2019/08/23",
+            "updatedAt": "2021/09/01 05:37:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sm115/symbol.png",
+                "logo": "https://images.pokemontcg.io/sm115/logo.png"
+            }
+        },
+        "number": "9",
+        "rarity": "Rare Holo GX",
+        "nationalPokedexNumbers": [
+            6
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sm115/9.png",
+            "large": "https://images.pokemontcg.io/sm115/9_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sm115-9",
+            "updatedAt": "2022/01/17",
+            "prices": {
+                "averageSellPrice": 8.87,
+                "lowPrice": 3,
+                "trendPrice": 7.8,
+                "reverseHoloTrend": 8.92,
+                "lowPriceExPlus": 4.99,
+                "avg1": 10,
+                "avg7": 7.16,
+                "avg30": 8.94,
+                "reverseHoloAvg1": 8.6,
+                "reverseHoloAvg7": 9.36,
+                "reverseHoloAvg30": 8.86
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "swsh2-26",
+        "name": "Ninetales V",
+        "qty": 1,
+        "holo": true,
+        "location": "",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic",
+            "V"
+        ],
+        "hp": "200",
+        "types": [
+            "Fire"
+        ],
+        "attacks": [
+            {
+                "name": "Nine-Tailed Shapeshifter",
+                "cost": [
+                    "Fire",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "damage": "",
+                "text": "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack."
+            },
+            {
+                "name": "Flamethrower",
+                "cost": [
+                    "Fire",
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "damage": "180",
+                "text": "Discard an Energy from this Pokémon."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Water",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "swsh2",
+            "name": "Rebel Clash",
+            "series": "Sword & Shield",
+            "printedTotal": 192,
+            "total": 209,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "RCL",
+            "releaseDate": "2020/05/01",
+            "updatedAt": "2020/09/25 10:09:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/swsh2/symbol.png",
+                "logo": "https://images.pokemontcg.io/swsh2/logo.png"
+            }
+        },
+        "number": "26",
+        "rarity": "Rare Holo V",
+        "nationalPokedexNumbers": [
+            38
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/swsh2/26.png",
+            "large": "https://images.pokemontcg.io/swsh2/26_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/swsh2-26",
+            "updatedAt": "2022/01/31",
+            "prices": {
+                "averageSellPrice": 2.68,
+                "lowPrice": 2,
+                "trendPrice": 2.48,
+                "reverseHoloTrend": 3.71,
+                "lowPriceExPlus": 2,
+                "avg1": 2.68,
+                "avg7": 2.74,
+                "avg30": 2.7,
+                "reverseHoloAvg1": 1.6,
+                "reverseHoloAvg7": 4.3,
+                "reverseHoloAvg30": 3.31
+            }
+        }
+    },
+    {
+        "id": "sm115-20",
+        "name": "Raichu-GX",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 1",
+            "GX"
+        ],
+        "hp": "210",
+        "types": [
+            "Lightning"
+        ],
+        "attacks": [
+            {
+                "name": "Thunderbolt",
+                "cost": [
+                    "Lightning",
+                    "Lightning",
+                    "Colorless"
+                ],
+                "damage": "120",
+                "text": ""
+            },
+            {
+                "name": "Spark Ball-GX",
+                "cost": [
+                    "Lightning",
+                    "Lightning",
+                    "Colorless"
+                ],
+                "damage": "200",
+                "text": "(You can't use more than 1 GX attack in a game.)"
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "×2"
+            }
+        ],
+        "resistances": [
+            {
+                "type": "Metal",
+                "value": "-20"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "sm115",
+            "name": "Hidden Fates",
+            "series": "Sun & Moon",
+            "printedTotal": 68,
+            "total": 69,
+            "legalities": {
+                "unlimited": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "HIF",
+            "releaseDate": "2019/08/23",
+            "updatedAt": "2021/09/01 05:37:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sm115/symbol.png",
+                "logo": "https://images.pokemontcg.io/sm115/logo.png"
+            }
+        },
+        "number": "20",
+        "rarity": "Rare Holo GX",
+        "nationalPokedexNumbers": [
+            26
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sm115/20.png",
+            "large": "https://images.pokemontcg.io/sm115/20_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sm115-20",
+            "updatedAt": "2022/01/17",
+            "prices": {
+                "averageSellPrice": 1.81,
+                "lowPrice": 0.88,
+                "trendPrice": 1.75,
+                "reverseHoloTrend": 1.49,
+                "lowPriceExPlus": 0.88,
+                "avg1": 0.8,
+                "avg7": 1.95,
+                "avg30": 1.86,
+                "reverseHoloAvg1": 1.98,
+                "reverseHoloAvg7": 1.55,
+                "reverseHoloAvg30": 1.54
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "sv4-137",
+        "name": "Skeledirge ex",
+        "qty": 1,
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 2",
+            "Tera",
+            "ex"
+        ],
+        "hp": "330",
+        "types": [
+            "Metal"
+        ],
+        "abilities": [
+            {
+                "name": "Incendiary Song",
+                "text": "Once during your turn, you may discard a Basic Fire Energy card from your hand in order to use this Ability. During this turn, attacks used by your Pokémon do 60 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Luster Burn",
+                "cost": [
+                    "Fire",
+                    "Fire"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "160",
+                "text": "This attack's damage isn't affected by any effects on your opponent's Active Pokémon."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv4",
+            "name": "Paradox Rift",
+            "series": "Scarlet & Violet",
+            "printedTotal": 182,
+            "total": 266,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "releaseDate": "2023/11/03",
+            "updatedAt": "2023/11/03 15:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv4/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv4/logo.png"
+            }
+        },
+        "number": "137",
+        "rarity": "Double Rare",
+        "nationalPokedexNumbers": [
+            911
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv4/137.png",
+            "large": "https://images.pokemontcg.io/sv4/137_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv4-137",
+            "updatedAt": "2025/11/21",
+            "prices": {
+                "averageSellPrice": 0.69,
+                "lowPrice": 0.15,
+                "trendPrice": 0.73,
+                "germanProLow": 0.0,
+                "suggestedPrice": 0.0,
+                "reverseHoloSell": 0.0,
+                "reverseHoloLow": 0.0,
+                "reverseHoloTrend": 0.0,
+                "lowPriceExPlus": 0.2,
+                "avg1": 0.55,
+                "avg7": 0.67,
+                "avg30": 0.69,
+                "reverseHoloAvg1": 0.0,
+                "reverseHoloAvg7": 0.0,
+                "reverseHoloAvg30": 0.0
+            }
+        }
+    },
+    {
+        "id": "me2pt5-3",
+        "name": "Erika's Vileplume ex",
+        "qty": 1,
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 2",
+            "ex"
+        ],
+        "hp": "310",
+        "types": [
+            "Grass"
+        ],
+        "abilities": [
+            {
+                "name": "Lovely Fragrance",
+                "text": "Once during your turn, you may use this Ability. Heal 30 damage from each of your Pokémon.",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Bloom Powder",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "160",
+                "text": "Your opponent's Active Pokémon is now Asleep and Poisoned."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "me2pt5",
+            "name": "Ascended Heroes",
+            "series": "Mega Evolution",
+            "printedTotal": 217,
+            "total": 295,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "ASC",
+            "releaseDate": "2026/01/30",
+            "updatedAt": "2026/01/30 15:00:00",
+            "images": {
+                "symbol": "https://images.scrydex.com/pokemon/me2pt5-symbol/symbol",
+                "logo": "https://images.scrydex.com/pokemon/me2pt5-logo/logo"
+            }
+        },
+        "number": "3",
+        "rarity": "Double Rare",
+        "nationalPokedexNumbers": [
+            45
+        ],
+        "images": {
+            "small": "https://images.scrydex.com/pokemon/me2pt5-3/small",
+            "large": "https://images.scrydex.com/pokemon/me2pt5-3/large"
+        }
+    },
+    {
+        "id": "me2-4",
+        "name": "Mega Heracross ex",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic",
+            "MEGA",
+            "ex"
+        ],
+        "hp": "280",
+        "types": [
+            "Grass"
+        ],
+        "attacks": [
+            {
+                "name": "Juggernaut Horn",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "100+",
+                "text": "If this Pokémon was damaged by an attack during your opponent's last turn, this attack does that much more damage."
+            },
+            {
+                "name": "Mountain Ramming",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Grass"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "170",
+                "text": "Discard the top 2 cards of your opponent's deck."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "me2",
+            "name": "Phantasmal Flames",
+            "series": "Mega Evolution",
+            "printedTotal": 94,
+            "total": 130,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "PFL",
+            "releaseDate": "2025/11/14",
+            "updatedAt": "2025/09/25 15:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/me2/symbol.png",
+                "logo": "https://images.pokemontcg.io/me2/logo.png"
+            }
+        },
+        "number": "4",
+        "rarity": "Double Rare",
+        "nationalPokedexNumbers": [
+            214
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/me2/4.png",
+            "large": "https://images.pokemontcg.io/me2/4_hires.png"
+        },
+        "qty": 2
+    },
+    {
+        "id": "svp-126",
+        "name": "Palafin ex [OCG]",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 1",
+            "ex"
+        ],
+        "hp": "340",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            {
+                "name": "Hero's Spirit",
+                "text": "Put this Pokémon into play only with the effect of Palafin's Zero to Hero Ability.",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Giga Impact",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "250",
+                "text": "During your next turn, this Pokémon can't attack."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Lightning",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "svp",
+            "name": "Scarlet & Violet Black Star Promos",
+            "series": "Scarlet & Violet",
+            "printedTotal": 215,
+            "total": 196,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "PR-SV",
+            "releaseDate": "2023/01/01",
+            "updatedAt": "2024/11/09 13:20:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/svp/symbol.png",
+                "logo": "https://images.pokemontcg.io/svp/logo.png"
+            }
+        },
+        "number": "126",
+        "rarity": "Promo",
+        "nationalPokedexNumbers": [
+            964
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/svp/126.png",
+            "large": "https://images.pokemontcg.io/svp/126_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/svp-126",
+            "updatedAt": "2025/11/21",
+            "prices": {
+                "averageSellPrice": 0.68,
+                "lowPrice": 0.07,
+                "trendPrice": 0.74,
+                "germanProLow": 0.0,
+                "suggestedPrice": 0.0,
+                "reverseHoloSell": 0.0,
+                "reverseHoloLow": 0.0,
+                "reverseHoloTrend": 0.0,
+                "lowPriceExPlus": 0.07,
+                "avg1": 0.75,
+                "avg7": 0.78,
+                "avg30": 0.68,
+                "reverseHoloAvg1": 0.0,
+                "reverseHoloAvg7": 0.0,
+                "reverseHoloAvg30": 0.0
+            }
+        }
+    },
+    {
+        "id": "sv6-134",
+        "name": "Blissey ex [OCG]",
+        "qty": 1,
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 1",
+            "ex"
+        ],
+        "hp": "300",
+        "types": [
+            "Colorless"
+        ],
+        "abilities": [
+            {
+                "name": "Happy Switch",
+                "text": "Once during your turn, you may move a Basic Energy from 1 of your Pokémon to another of your Pokémon.",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Return",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "180",
+                "text": "You may draw cards until you have 6 cards in your hand."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv6",
+            "name": "Twilight Masquerade",
+            "series": "Scarlet & Violet",
+            "printedTotal": 167,
+            "total": 226,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "TWM",
+            "releaseDate": "2024/05/24",
+            "updatedAt": "2024/05/23 15:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv6/logo.png"
+            }
+        },
+        "number": "134",
+        "rarity": "Double Rare",
+        "nationalPokedexNumbers": [
+            242
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv6/134.png",
+            "large": "https://images.pokemontcg.io/sv6/134_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv6-134",
+            "updatedAt": "2025/11/21",
+            "prices": {
+                "averageSellPrice": 0.68,
+                "lowPrice": 0.09,
+                "trendPrice": 0.57,
+                "germanProLow": 0.0,
+                "suggestedPrice": 0.0,
+                "reverseHoloSell": 0.0,
+                "reverseHoloLow": 0.0,
+                "reverseHoloTrend": 0.0,
+                "lowPriceExPlus": 0.1,
+                "avg1": 0.39,
+                "avg7": 0.56,
+                "avg30": 0.67,
+                "reverseHoloAvg1": 0.0,
+                "reverseHoloAvg7": 0.0,
+                "reverseHoloAvg30": 0.0
+            }
+        }
+    },
+    {
+        "id": "me2-13",
+        "name": "Mega Charizard X ex (Gengar Deck)",
+        "qty": 1,
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 2",
+            "MEGA",
+            "ex"
+        ],
+        "hp": "360",
+        "types": [
+            "Fire"
+        ],
+        "attacks": [
+            {
+                "name": "Inferno X",
+                "cost": [
+                    "Fire",
+                    "Fire"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "90×",
+                "text": "Discard any amount of Fire Energy from among your Pokémon, and this attack does 90 damage for each card you discarded in this way."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Water",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "me2",
+            "name": "Phantasmal Flames",
+            "series": "Mega Evolution",
+            "printedTotal": 94,
+            "total": 130,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "PFL",
+            "releaseDate": "2025/11/14",
+            "updatedAt": "2025/09/25 15:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/me2/symbol.png",
+                "logo": "https://images.pokemontcg.io/me2/logo.png"
+            }
+        },
+        "number": "13",
+        "rarity": "Promo",
+        "nationalPokedexNumbers": [
+            6
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/me2/13.png",
+            "large": "https://images.pokemontcg.io/me2/13_hires.png"
+        }
+    },
+    {
+        "id": "swshp-SWSH148",
+        "name": "Noivern V",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic",
+            "V"
+        ],
+        "hp": "200",
+        "types": [
+            "Dragon"
+        ],
+        "attacks": [
+            {
+                "name": "Boomburst",
+                "cost": [
+                    "Psychic"
+                ],
+                "damage": "",
+                "text": "This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+            },
+            {
+                "name": "Synchro Loud",
+                "cost": [
+                    "Psychic",
+                    "Darkness"
+                ],
+                "damage": "60+",
+                "text": "If you have the same number of cards in your hand as your opponent, this attack does 120 more damage."
+            }
+        ],
+        "set": {
+            "id": "swshp",
+            "name": "SWSH Black Star Promos",
+            "series": "Sword & Shield",
+            "printedTotal": 184,
+            "total": 181,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "PR-SW",
+            "releaseDate": "2019/11/15",
+            "updatedAt": "2021/12/15 14:46:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+                "logo": "https://images.pokemontcg.io/swshp/logo.png"
+            }
+        },
+        "number": "SWSH148",
+        "rarity": "Promo",
+        "nationalPokedexNumbers": [
+            715
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/swshp/SWSH148.png",
+            "large": "https://images.pokemontcg.io/swshp/SWSH148_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/swshp-SWSH148",
+            "updatedAt": "2022/01/17",
+            "prices": {
+                "averageSellPrice": 8.11,
+                "lowPrice": 5,
+                "trendPrice": 7.83,
+                "reverseHoloTrend": 0,
+                "lowPriceExPlus": 6,
+                "avg1": 7,
+                "avg7": 7.89,
+                "avg30": 8.21
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "swshp-SWSH147",
+        "name": "Rayquaza V",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic",
+            "V",
+            "Rapid Strike"
+        ],
+        "hp": "210",
+        "types": [
+            "Dragon"
+        ],
+        "attacks": [
+            {
+                "name": "Dragon Pulse",
+                "cost": [
+                    "Lightning"
+                ],
+                "damage": "40",
+                "text": "Discard the top 2 cards of your deck."
+            },
+            {
+                "name": "Spiral Burst",
+                "cost": [
+                    "Fire",
+                    "Lightning"
+                ],
+                "damage": "20+",
+                "text": "You may discard up to 2 basic Fire Energy or up to 2 basic Lightning Energy from this Pokémon. This attack does 80 more damage for each card you discarded in this way."
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "swshp",
+            "name": "SWSH Black Star Promos",
+            "series": "Sword & Shield",
+            "printedTotal": 184,
+            "total": 181,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "PR-SW",
+            "releaseDate": "2019/11/15",
+            "updatedAt": "2021/12/15 14:46:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+                "logo": "https://images.pokemontcg.io/swshp/logo.png"
+            }
+        },
+        "number": "SWSH147",
+        "rarity": "Promo",
+        "nationalPokedexNumbers": [
+            384
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/swshp/SWSH147.png",
+            "large": "https://images.pokemontcg.io/swshp/SWSH147_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/swshp-SWSH147",
+            "updatedAt": "2022/01/17",
+            "prices": {
+                "averageSellPrice": 9.93,
+                "lowPrice": 7,
+                "trendPrice": 10.2,
+                "reverseHoloTrend": 0,
+                "lowPriceExPlus": 7.2,
+                "avg1": 12,
+                "avg7": 10.36,
+                "avg30": 10.19
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "swshp-SWSH105",
+        "name": "Gardevoir V",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic",
+            "V"
+        ],
+        "hp": "210",
+        "types": [
+            "Psychic"
+        ],
+        "attacks": [
+            {
+                "name": "Magical Shot",
+                "cost": [
+                    "Psychic"
+                ],
+                "damage": "30",
+                "text": ""
+            },
+            {
+                "name": "Swelling Pulse",
+                "cost": [
+                    "Psychic",
+                    "Psychic",
+                    "Colorless"
+                ],
+                "damage": "120+",
+                "text": "If this Pokémon was healed during this turn, this attack does 80 more damage."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Metal",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "swshp",
+            "name": "SWSH Black Star Promos",
+            "series": "Sword & Shield",
+            "printedTotal": 184,
+            "total": 181,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "PR-SW",
+            "releaseDate": "2019/11/15",
+            "updatedAt": "2021/12/15 14:46:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+                "logo": "https://images.pokemontcg.io/swshp/logo.png"
+            }
+        },
+        "number": "SWSH105",
+        "rarity": "Promo",
+        "nationalPokedexNumbers": [
+            282
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/swshp/SWSH105.png",
+            "large": "https://images.pokemontcg.io/swshp/SWSH105_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/swshp-SWSH105",
+            "updatedAt": "2022/01/17",
+            "prices": {
+                "averageSellPrice": 5.87,
+                "lowPrice": 4.7,
+                "trendPrice": 4.63,
+                "reverseHoloTrend": 0,
+                "lowPriceExPlus": 4.7,
+                "avg1": 4.88,
+                "avg7": 5.58,
+                "avg30": 5.9
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "swshp-SWSH104",
+        "name": "Victini V",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic",
+            "V"
+        ],
+        "hp": "190",
+        "types": [
+            "Fire"
+        ],
+        "attacks": [
+            {
+                "name": "Spreading Flames",
+                "cost": [
+                    "Colorless"
+                ],
+                "damage": "",
+                "text": "Attach up to 3 Fire Energy cards from your discard pile to your Pokémon in any way you like."
+            },
+            {
+                "name": "Energy Burst",
+                "cost": [
+                    "Fire",
+                    "Fire"
+                ],
+                "damage": "30×",
+                "text": "This attack does 30 damage for each Energy attached to both Active Pokémon."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Water",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "swshp",
+            "name": "SWSH Black Star Promos",
+            "series": "Sword & Shield",
+            "printedTotal": 184,
+            "total": 181,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "PR-SW",
+            "releaseDate": "2019/11/15",
+            "updatedAt": "2021/12/15 14:46:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+                "logo": "https://images.pokemontcg.io/swshp/logo.png"
+            }
+        },
+        "number": "SWSH104",
+        "rarity": "Promo",
+        "nationalPokedexNumbers": [
+            494
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/swshp/SWSH104.png",
+            "large": "https://images.pokemontcg.io/swshp/SWSH104_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/swshp-SWSH104",
+            "updatedAt": "2022/01/17",
+            "prices": {
+                "averageSellPrice": 6.88,
+                "lowPrice": 2.5,
+                "trendPrice": 6.48,
+                "reverseHoloTrend": 0,
+                "lowPriceExPlus": 2.5,
+                "avg1": 5,
+                "avg7": 6.6,
+                "avg30": 7.21
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "xy0-14",
+        "name": "Greninja",
+        "rarity": "Promo",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 2"
+        ],
+        "hp": "140",
+        "types": [
+            "Water"
+        ],
+        "attacks": [
+            {
+                "name": "Mat Block",
+                "cost": [
+                    "Water"
+                ],
+                "damage": "40",
+                "text": "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon."
+            },
+            {
+                "name": "Aqua Edge",
+                "cost": [
+                    "Water",
+                    "Water",
+                    "Colorless"
+                ],
+                "damage": "80",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Grass",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "xy0",
+            "name": "Kalos Starter Set",
+            "series": "XY",
+            "printedTotal": 39,
+            "total": 39,
+            "legalities": {
+                "unlimited": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "KSS",
+            "releaseDate": "2013/11/08",
+            "updatedAt": "2018/03/04 10:35:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/xy0/symbol.png",
+                "logo": "https://images.pokemontcg.io/xy0/logo.png"
+            }
+        },
+        "number": "14",
+        "nationalPokedexNumbers": [
+            658
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/xy0/14.png",
+            "large": "https://images.pokemontcg.io/xy0/14_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/xy0-14",
+            "updatedAt": "2025/09/17",
+            "prices": {
+                "averageSellPrice": 4.99,
+                "lowPrice": 0.16,
+                "trendPrice": 4.14,
+                "germanProLow": 0,
+                "suggestedPrice": 0,
+                "reverseHoloSell": 0,
+                "reverseHoloLow": 0.8,
+                "reverseHoloTrend": 2.62,
+                "lowPriceExPlus": 1,
+                "avg1": 3.95,
+                "avg7": 4.34,
+                "avg30": 2.9,
+                "reverseHoloAvg1": 3,
+                "reverseHoloAvg7": 3.41,
+                "reverseHoloAvg30": 2.24
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "smp-SM128",
+        "name": "Alolan Ninetales",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 1"
+        ],
+        "hp": "110",
+        "types": [
+            "Fairy"
+        ],
+        "attacks": [
+            {
+                "name": "Smash Kick",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "damage": "30",
+                "text": ""
+            },
+            {
+                "name": "Spiral Drain",
+                "cost": [
+                    "Fairy",
+                    "Fairy",
+                    "Colorless"
+                ],
+                "damage": "80",
+                "text": "Heal 30 damage from this Pokémon."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Metal",
+                "value": "×2"
+            }
+        ],
+        "resistances": [
+            {
+                "type": "Darkness",
+                "value": "-20"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "smp",
+            "name": "SM Black Star Promos",
+            "series": "Sun & Moon",
+            "printedTotal": 248,
+            "total": 250,
+            "legalities": {
+                "unlimited": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "PR-SM",
+            "releaseDate": "2017/02/03",
+            "updatedAt": "2020/05/01 16:06:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/smp/symbol.png",
+                "logo": "https://images.pokemontcg.io/smp/logo.png"
+            }
+        },
+        "number": "SM128",
+        "rarity": "Promo",
+        "nationalPokedexNumbers": [
+            38
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/smp/SM128.png",
+            "large": "https://images.pokemontcg.io/smp/SM128_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/smp-SM128",
+            "updatedAt": "2022/01/17",
+            "prices": {
+                "averageSellPrice": 2.9,
+                "lowPrice": 1.8,
+                "trendPrice": 3.15,
+                "reverseHoloTrend": 2.78,
+                "lowPriceExPlus": 1.8,
+                "avg1": 2.9,
+                "avg7": 2.89,
+                "avg30": 1.95,
+                "reverseHoloAvg1": 2.5,
+                "reverseHoloAvg7": 3.58,
+                "reverseHoloAvg30": 3.96
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "mcd21-25",
+        "name": "Pikachu",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesTo": [
+            "Raichu"
+        ],
+        "attacks": [
+            {
+                "name": "Meal Time",
+                "cost": [
+                    "Lightning"
+                ],
+                "damage": "",
+                "text": "Flip a coin until you get tails. For each heads, draw a card."
+            },
+            {
+                "name": "Gnaw",
+                "cost": [
+                    "Lightning",
+                    "Colorless"
+                ],
+                "damage": "20",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "×2"
+            }
+        ],
+        "resistances": [
+            {
+                "type": "Metal",
+                "value": "-20"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "mcd21",
+            "name": "McDonald's Collection 2021",
+            "series": "Other",
+            "printedTotal": 25,
+            "total": 25,
+            "legalities": {
+                "unlimited": "Legal",
+                "expanded": "Legal"
+            },
+            "releaseDate": "2021/02/09",
+            "updatedAt": "2021/09/07 13:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/mcd21/symbol.png",
+                "logo": "https://images.pokemontcg.io/mcd21/logo.png"
+            }
+        },
+        "number": "25",
+        "rarity": "Rare Holo Cosmos",
+        "nationalPokedexNumbers": [
+            25
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd21/25.png",
+            "large": "https://images.pokemontcg.io/mcd21/25_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/mcd21-25",
+            "updatedAt": "2022/01/17",
+            "prices": {
+                "averageSellPrice": 20.36,
+                "lowPrice": 9.99,
+                "trendPrice": 19.48,
+                "reverseHoloTrend": 28.25,
+                "lowPriceExPlus": 11,
+                "avg1": 19,
+                "avg7": 20.21,
+                "avg30": 19.93,
+                "reverseHoloAvg1": 35,
+                "reverseHoloAvg7": 32.72,
+                "reverseHoloAvg30": 33.92
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "mcd21-16",
+        "name": "Scorbunny",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Fire"
+        ],
+        "evolvesTo": [
+            "Raboot"
+        ],
+        "attacks": [
+            {
+                "name": "Super Singe",
+                "cost": [
+                    "Fire"
+                ],
+                "damage": "10",
+                "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Burned."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Water",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "mcd21",
+            "name": "McDonald's Collection 2021",
+            "series": "Other",
+            "printedTotal": 25,
+            "total": 25,
+            "legalities": {
+                "unlimited": "Legal",
+                "expanded": "Legal"
+            },
+            "releaseDate": "2021/02/09",
+            "updatedAt": "2021/09/07 13:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/mcd21/symbol.png",
+                "logo": "https://images.pokemontcg.io/mcd21/logo.png"
+            }
+        },
+        "number": "16",
+        "rarity": "Rare Holo Cosmos",
+        "nationalPokedexNumbers": [
+            813
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd21/16.png",
+            "large": "https://images.pokemontcg.io/mcd21/16_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/mcd21-16",
+            "updatedAt": "2022/01/17",
+            "prices": {
+                "averageSellPrice": 2.14,
+                "lowPrice": 0.1,
+                "trendPrice": 2.22,
+                "reverseHoloTrend": 2.54,
+                "lowPriceExPlus": 0.5,
+                "avg1": 1.93,
+                "avg7": 2.16,
+                "avg30": 2.14,
+                "reverseHoloAvg1": 3.02,
+                "reverseHoloAvg7": 2.56,
+                "reverseHoloAvg30": 3.02
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "mcd23-6",
+        "name": "Pikachu",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "70",
+        "types": [
+            "Lightning"
+        ],
+        "attacks": [
+            {
+                "cost": [
+                    "Colorless"
+                ],
+                "name": "Growl",
+                "damage": "",
+                "text": "During your opponent's next turn, the Defending Pokémon's attacks do 20 less damage (before applying Weakness and Resistance)."
+            },
+            {
+                "cost": [
+                    "Lightning",
+                    "Colorless"
+                ],
+                "name": "Pika Bolt",
+                "damage": "30",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv2",
+            "name": "Paldea Evolved",
+            "series": "Scarlet & Violet",
+            "printedTotal": 193,
+            "total": 279,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "releaseDate": "2023/06/09",
+            "updatedAt": "2023/06/09 15:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv2/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv2/logo.png"
+            }
+        },
+        "number": "62",
+        "rarity": "Rare Holo Cosmos",
+        "nationalPokedexNumbers": [
+            25
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv2/62.png",
+            "large": "https://images.pokemontcg.io/sv2/62_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv2-62",
+            "updatedAt": "2024/05/23",
+            "prices": {
+                "averageSellPrice": 0.07,
+                "lowPrice": 0.01,
+                "trendPrice": 0.04,
+                "germanProLow": 0,
+                "suggestedPrice": 0,
+                "reverseHoloSell": 0.16,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.1,
+                "lowPriceExPlus": 0.01,
+                "avg1": 0.04,
+                "avg7": 0.03,
+                "avg30": 0.06,
+                "reverseHoloAvg1": 0.1,
+                "reverseHoloAvg7": 0.12,
+                "reverseHoloAvg30": 0.15
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "mcd23-1",
+        "name": "Sprigatito",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "70",
+        "types": [
+            "Grass"
+        ],
+        "attacks": [
+            {
+                "cost": [
+                    "Colorless"
+                ],
+                "name": "Scratch",
+                "damage": "10",
+                "text": ""
+            },
+            {
+                "cost": [
+                    "Grass",
+                    "Colorless"
+                ],
+                "name": "Leafage",
+                "damage": "20",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv1",
+            "name": "Scarlet & Violet",
+            "series": "Scarlet & Violet",
+            "printedTotal": 198,
+            "total": 258,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "releaseDate": "2023/03/31",
+            "updatedAt": "2023/03/31 15:45:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv1/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv1/logo.png"
+            }
+        },
+        "number": "13",
+        "rarity": "Rare Holo Cosmos",
+        "nationalPokedexNumbers": [
+            906
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv1/13.png",
+            "large": "https://images.pokemontcg.io/sv1/13_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv1-13",
+            "updatedAt": "2024/05/23",
+            "prices": {
+                "averageSellPrice": 0.03,
+                "lowPrice": 0.02,
+                "trendPrice": 0.05,
+                "germanProLow": 0,
+                "suggestedPrice": 0,
+                "reverseHoloSell": 0.12,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.16,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.17,
+                "avg7": 0.08,
+                "avg30": 0.05,
+                "reverseHoloAvg1": 0.1,
+                "reverseHoloAvg7": 0.16,
+                "reverseHoloAvg30": 0.12
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "mcd24-15",
+        "name": "Drampa",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "120",
+        "types": [
+            "Colorless"
+        ],
+        "attacks": [
+            {
+                "name": "Gentle Slap",
+                "cost": [
+                    "Colorless"
+                ],
+                "damage": "20",
+                "text": ""
+            },
+            {
+                "name": "Raging Cannon",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "damage": "100+",
+                "text": "If all of your Benched Pokémon have at least 1 damage counter on them, this attack does 120 more damage."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv5",
+            "name": "Temporal Forces",
+            "series": "Scarlet & Violet",
+            "printedTotal": 162,
+            "total": 218,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "TEF",
+            "releaseDate": "2024/03/22",
+            "updatedAt": "2024/03/22 15:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv5/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv5/logo.png"
+            }
+        },
+        "number": "138",
+        "rarity": "Rare",
+        "nationalPokedexNumbers": [
+            780
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv5/138.png",
+            "large": "https://images.pokemontcg.io/sv5/138_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv5-138",
+            "updatedAt": "2024/12/10",
+            "prices": {
+                "averageSellPrice": 0.05,
+                "lowPrice": 0.02,
+                "trendPrice": 0.04,
+                "germanProLow": 0,
+                "suggestedPrice": 0,
+                "reverseHoloSell": 0.22,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.17,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.02,
+                "avg7": 0.03,
+                "avg30": 0.05,
+                "reverseHoloAvg1": 0.1,
+                "reverseHoloAvg7": 0.2,
+                "reverseHoloAvg30": 0.21
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "mcd24-8",
+        "name": "Koraidon",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "130",
+        "types": [
+            "Fighting"
+        ],
+        "attacks": [
+            {
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "name": "Claw Slash",
+                "damage": "70",
+                "text": ""
+            },
+            {
+                "cost": [
+                    "Fighting",
+                    "Fighting",
+                    "Fighting",
+                    "Colorless"
+                ],
+                "name": "Rampaging Fang",
+                "damage": "190",
+                "text": "Discard 3 Energy from this Pokémon."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Psychic",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv1",
+            "name": "Scarlet & Violet",
+            "series": "Scarlet & Violet",
+            "printedTotal": 198,
+            "total": 258,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "releaseDate": "2023/03/31",
+            "updatedAt": "2023/03/31 15:45:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv1/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv1/logo.png"
+            }
+        },
+        "number": "124",
+        "rarity": "Rare Holo Cosmos",
+        "nationalPokedexNumbers": [
+            1007
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv1/124.png",
+            "large": "https://images.pokemontcg.io/sv1/124_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv1-124",
+            "updatedAt": "2025/01/06",
+            "prices": {
+                "averageSellPrice": 0.08,
+                "lowPrice": 0.02,
+                "trendPrice": 0.09,
+                "germanProLow": 0,
+                "suggestedPrice": 0,
+                "reverseHoloSell": 0.23,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.34,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.07,
+                "avg7": 0.11,
+                "avg30": 0.08,
+                "reverseHoloAvg1": 0.4,
+                "reverseHoloAvg7": 0.34,
+                "reverseHoloAvg30": 0.24
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "mcd24-3",
+        "name": "Miraidon",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "120",
+        "types": [
+            "Lightning"
+        ],
+        "attacks": [
+            {
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "name": "Sharp Fang",
+                "damage": "30",
+                "text": ""
+            },
+            {
+                "cost": [
+                    "Lightning",
+                    "Lightning",
+                    "Colorless"
+                ],
+                "name": "Lightning Laser",
+                "damage": "90",
+                "text": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv1",
+            "name": "Scarlet & Violet",
+            "series": "Scarlet & Violet",
+            "printedTotal": 198,
+            "total": 258,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "releaseDate": "2023/03/31",
+            "updatedAt": "2023/03/31 15:45:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv1/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv1/logo.png"
+            }
+        },
+        "number": "80",
+        "rarity": "Rare Holo Cosmos",
+        "nationalPokedexNumbers": [
+            1008
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv1/80.png",
+            "large": "https://images.pokemontcg.io/sv1/80_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv1-80",
+            "updatedAt": "2025/01/18",
+            "prices": {
+                "averageSellPrice": 0.1,
+                "lowPrice": 0.02,
+                "trendPrice": 0.06,
+                "germanProLow": 0,
+                "suggestedPrice": 0,
+                "reverseHoloSell": 0.28,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.39,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.06,
+                "avg7": 0.08,
+                "avg30": 0.1,
+                "reverseHoloAvg1": 0.15,
+                "reverseHoloAvg7": 0.19,
+                "reverseHoloAvg30": 0.27
+            }
+        },
+        "qty": 2,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "mcd24-12",
+        "name": "Dragonite",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 2"
+        ],
+        "hp": "180",
+        "types": [
+            "Dragon"
+        ],
+        "abilities": [
+            {
+                "name": "Jet Cruise",
+                "text": "Your Pokémon in play have no Retreat Cost.",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Dragon Pulse",
+                "cost": [
+                    "Water",
+                    "Lightning"
+                ],
+                "damage": "180",
+                "text": "Discard the top 2 cards of your deck."
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv3pt5",
+            "name": "151",
+            "series": "Scarlet & Violet",
+            "printedTotal": 165,
+            "total": 207,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "releaseDate": "2023/09/22",
+            "updatedAt": "2023/09/22 15:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+            }
+        },
+        "number": "149",
+        "rarity": "Rare Holo Cosmos",
+        "nationalPokedexNumbers": [
+            149
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv3pt5/149.png",
+            "large": "https://images.pokemontcg.io/sv3pt5/149_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-149",
+            "updatedAt": "2025/01/23",
+            "prices": {
+                "averageSellPrice": 0.31,
+                "lowPrice": 0.02,
+                "trendPrice": 0.32,
+                "germanProLow": 0,
+                "suggestedPrice": 0,
+                "reverseHoloSell": 1.96,
+                "reverseHoloLow": 0.49,
+                "reverseHoloTrend": 1.84,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.35,
+                "avg7": 0.33,
+                "avg30": 0.31,
+                "reverseHoloAvg1": 1.84,
+                "reverseHoloAvg7": 1.71,
+                "reverseHoloAvg30": 1.91
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "mcd24-2",
+        "name": "Pikachu",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesTo": [
+            "Raichu"
+        ],
+        "attacks": [
+            {
+                "name": "Charge",
+                "cost": [
+                    "Lightning"
+                ],
+                "damage": "",
+                "text": "Search your deck for a Basic Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck."
+            },
+            {
+                "name": "Pika Punch",
+                "cost": [
+                    "Lightning",
+                    "Lightning",
+                    "Colorless"
+                ],
+                "damage": "50",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv3pt5",
+            "name": "151",
+            "series": "Scarlet & Violet",
+            "printedTotal": 165,
+            "total": 207,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "releaseDate": "2023/09/22",
+            "updatedAt": "2023/09/22 15:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+            }
+        },
+        "number": "25",
+        "rarity": "Rare Holo Cosmos",
+        "nationalPokedexNumbers": [
+            25
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv3pt5/25.png",
+            "large": "https://images.pokemontcg.io/sv3pt5/25_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv3pt5-25",
+            "updatedAt": "2025/01/30",
+            "prices": {
+                "averageSellPrice": 0.07,
+                "lowPrice": 0.02,
+                "trendPrice": 0.03,
+                "germanProLow": 0,
+                "suggestedPrice": 0,
+                "reverseHoloSell": 0.24,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.27,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.05,
+                "avg7": 0.04,
+                "avg30": 0.07,
+                "reverseHoloAvg1": 0.26,
+                "reverseHoloAvg7": 0.27,
+                "reverseHoloAvg30": 0.25
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "swsh7-82",
+        "name": "Galarian Zapdos",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "110",
+        "types": [
+            "Fighting"
+        ],
+        "abilities": [
+            {
+                "name": "Strong Legs Charge",
+                "text": "When you play this Pokémon from your hand onto your Bench during your turn, you may attach up to 2 Fighting Energy cards from your hand to this Pokémon.",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Zapper Kick",
+                "cost": [
+                    "Fighting",
+                    "Fighting",
+                    "Colorless"
+                ],
+                "damage": "70",
+                "text": "You may discard all Energy from this Pokémon. If you do, your opponent's Active Pokémon is now Paralyzed."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Psychic",
+                "value": "×2"
+            }
+        ],
+        "set": {
+            "id": "swsh7",
+            "name": "Evolving Skies",
+            "series": "Sword & Shield",
+            "printedTotal": 203,
+            "total": 237,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "EVS",
+            "releaseDate": "2021/08/27",
+            "updatedAt": "2021/08/27 10:17:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/swsh7/symbol.png",
+                "logo": "https://images.pokemontcg.io/swsh7/logo.png"
+            }
+        },
+        "number": "82",
+        "rarity": "Rare Holo",
+        "nationalPokedexNumbers": [
+            145
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/swsh7/82.png",
+            "large": "https://images.pokemontcg.io/swsh7/82_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/swsh7-82",
+            "updatedAt": "2022/01/17",
+            "prices": {
+                "averageSellPrice": 0.65,
+                "lowPrice": 0.14,
+                "trendPrice": 0.65,
+                "reverseHoloSell": 0.91,
+                "reverseHoloLow": 0.15,
+                "reverseHoloTrend": 1.02,
+                "lowPriceExPlus": 0.14,
+                "avg1": 0.75,
+                "avg7": 0.66,
+                "avg30": 0.65,
+                "reverseHoloAvg1": 0.83,
+                "reverseHoloAvg7": 0.88,
+                "reverseHoloAvg30": 0.96
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "swsh8-161",
+        "name": "Galarian Obstagoon",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 2"
+        ],
+        "hp": "170",
+        "types": [
+            "Darkness"
+        ],
+        "attacks": [
+            {
+                "name": "Silence",
+                "cost": [
+                    "Darkness"
+                ],
+                "damage": "30",
+                "text": "Choose 1 of your opponent's Active Pokémon's attacks. During your opponent's next turn, that Pokémon can't use that attack."
+            },
+            {
+                "name": "Merciless Strike",
+                "cost": [
+                    "Darkness"
+                ],
+                "damage": "60+",
+                "text": "If your opponent's Active Pokémon already has any damage counters on it, this attack does 90 more damage."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Grass",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "swsh8",
+            "name": "Fusion Strike",
+            "series": "Sword & Shield",
+            "printedTotal": 264,
+            "total": 284,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "FST",
+            "releaseDate": "2021/11/12",
+            "updatedAt": "2021/11/12 07:32:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/swsh8/symbol.png",
+                "logo": "https://images.pokemontcg.io/swsh8/logo.png"
+            }
+        },
+        "number": "161",
+        "rarity": "Rare Holo",
+        "nationalPokedexNumbers": [
+            862
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/swsh8/161.png",
+            "large": "https://images.pokemontcg.io/swsh8/161_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/swsh8-161",
+            "updatedAt": "2022/01/17",
+            "prices": {
+                "averageSellPrice": 0.41,
+                "lowPrice": 0.07,
+                "trendPrice": 0.33,
+                "reverseHoloSell": 0.52,
+                "reverseHoloLow": 0.15,
+                "reverseHoloTrend": 0.47,
+                "lowPriceExPlus": 0.09,
+                "avg1": 0.24,
+                "avg7": 0.36,
+                "avg30": 0.35,
+                "reverseHoloAvg1": 0.15,
+                "reverseHoloAvg7": 0.36,
+                "reverseHoloAvg30": 0.53
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "swsh10-16",
+        "name": "Hisuian Lilligant",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 1"
+        ],
+        "hp": "110",
+        "types": [
+            "Grass"
+        ],
+        "attacks": [
+            {
+                "name": "Twister Lutz",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "damage": "",
+                "text": "This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Switch this Pokémon with 1 of your Benched Pokémon."
+            },
+            {
+                "name": "Leaf Step",
+                "cost": [
+                    "Grass",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "damage": "100",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "swsh10",
+            "name": "Astral Radiance",
+            "series": "Sword & Shield",
+            "printedTotal": 189,
+            "total": 216,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "ASR",
+            "releaseDate": "2022/05/27",
+            "updatedAt": "2022/05/27 09:45:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/swsh10/symbol.png",
+                "logo": "https://images.pokemontcg.io/swsh10/logo.png"
+            }
+        },
+        "number": "16",
+        "rarity": "Rare Holo",
+        "nationalPokedexNumbers": [
+            549
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/swsh10/16.png",
+            "large": "https://images.pokemontcg.io/swsh10/16_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/swsh10-16",
+            "updatedAt": "2022/06/17",
+            "prices": {
+                "averageSellPrice": 0.42,
+                "lowPrice": 0.04,
+                "trendPrice": 0.19,
+                "reverseHoloSell": 0.44,
+                "reverseHoloLow": 0.1,
+                "reverseHoloTrend": 0.36,
+                "lowPriceExPlus": 0.04,
+                "avg1": 0.25,
+                "avg7": 0.3,
+                "avg30": 0.43,
+                "reverseHoloAvg1": 0.42,
+                "reverseHoloAvg7": 0.44,
+                "reverseHoloAvg30": 0.44
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "swsh5-107",
+        "name": "Aegislash",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 2"
+        ],
+        "hp": "150",
+        "types": [
+            "Metal"
+        ],
+        "abilities": [
+            {
+                "name": "Stance Change",
+                "text": "Once during your turn, you may switch this Pokémon with an Aegislash in your hand. Any attached cards, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pokémon.",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Full Metal Blade",
+                "cost": [
+                    "Metal",
+                    "Metal",
+                    "Colorless"
+                ],
+                "damage": "210",
+                "text": "Discard 2 Metal Energy from this Pokémon."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "×2"
+            }
+        ],
+        "resistances": [
+            {
+                "type": "Grass",
+                "value": "-30"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "swsh5",
+            "name": "Battle Styles",
+            "series": "Sword & Shield",
+            "printedTotal": 163,
+            "total": 183,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "BST",
+            "releaseDate": "2021/03/19",
+            "updatedAt": "2021/03/19 15:12:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/swsh5/symbol.png",
+                "logo": "https://images.pokemontcg.io/swsh5/logo.png"
+            }
+        },
+        "number": "107",
+        "rarity": "Rare Holo",
+        "nationalPokedexNumbers": [
+            681
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/swsh5/107.png",
+            "large": "https://images.pokemontcg.io/swsh5/107_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/swsh5-107",
+            "updatedAt": "2022/01/17",
+            "prices": {
+                "averageSellPrice": 0.39,
+                "lowPrice": 0.02,
+                "trendPrice": 0.45,
+                "reverseHoloSell": 0.29,
+                "reverseHoloLow": 0.09,
+                "reverseHoloTrend": 0.31,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.5,
+                "avg7": 0.51,
+                "avg30": 0.37,
+                "reverseHoloAvg1": 0.3,
+                "reverseHoloAvg7": 0.25,
+                "reverseHoloAvg30": 0.27
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "swsh7-120",
+        "name": "Flapple",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 1"
+        ],
+        "hp": "80",
+        "types": [
+            "Dragon"
+        ],
+        "attacks": [
+            {
+                "name": "Acidic Mucus",
+                "cost": [
+                    "Colorless"
+                ],
+                "damage": "50×",
+                "text": "This attack does 50 damage for each of your opponent's Pokémon in play that has an Ability."
+            },
+            {
+                "name": "Fighting Tackle",
+                "cost": [
+                    "Grass",
+                    "Fire"
+                ],
+                "damage": "80+",
+                "text": "If your opponent's Active Pokémon is a Pokémon V, this attack does 80 more damage."
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "swsh7",
+            "name": "Evolving Skies",
+            "series": "Sword & Shield",
+            "printedTotal": 203,
+            "total": 237,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "EVS",
+            "releaseDate": "2021/08/27",
+            "updatedAt": "2021/08/27 10:17:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/swsh7/symbol.png",
+                "logo": "https://images.pokemontcg.io/swsh7/logo.png"
+            }
+        },
+        "number": "120",
+        "rarity": "Rare",
+        "nationalPokedexNumbers": [
+            841
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/swsh7/120.png",
+            "large": "https://images.pokemontcg.io/swsh7/120_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/swsh7-120",
+            "updatedAt": "2022/01/17",
+            "prices": {
+                "averageSellPrice": 0.07,
+                "lowPrice": 0.02,
+                "trendPrice": 0.1,
+                "reverseHoloSell": 0.26,
+                "reverseHoloLow": 0.05,
+                "reverseHoloTrend": 0.19,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.02,
+                "avg7": 0.08,
+                "avg30": 0.07,
+                "reverseHoloAvg1": 0.77,
+                "reverseHoloAvg7": 0.23,
+                "reverseHoloAvg30": 0.25
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "sv2-134",
+        "name": "Weavile",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 1"
+        ],
+        "hp": "110",
+        "types": [
+            "Darkness"
+        ],
+        "abilities": [
+            {
+                "type": "Ability",
+                "name": "Assaulting Hunt",
+                "text": "Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may switch in 1 of your opponent's Benched Basic Pokémon to the Active Spot."
+            }
+        ],
+        "attacks": [
+            {
+                "cost": [
+                    "Darkness",
+                    "Colorless"
+                ],
+                "name": "Slashing Claw",
+                "damage": "70",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Grass",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv2",
+            "name": "Paldea Evolved",
+            "series": "Scarlet & Violet",
+            "printedTotal": 193,
+            "total": 279,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "releaseDate": "2023/06/09",
+            "updatedAt": "2023/06/09 15:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv2/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv2/logo.png"
+            }
+        },
+        "number": "134",
+        "rarity": "Rare",
+        "nationalPokedexNumbers": [
+            461
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv2/134.png",
+            "large": "https://images.pokemontcg.io/sv2/134_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv2-134",
+            "updatedAt": "2023/08/03",
+            "prices": {
+                "averageSellPrice": 0.08,
+                "lowPrice": 0.02,
+                "trendPrice": 0.06,
+                "germanProLow": 0,
+                "suggestedPrice": 0,
+                "reverseHoloSell": 0.22,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.28,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.07,
+                "avg7": 0.06,
+                "avg30": 0.07,
+                "reverseHoloAvg1": 0.26,
+                "reverseHoloAvg7": 0.21,
+                "reverseHoloAvg30": 0.22
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "sv2-84",
+        "name": "Wigglytuff",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 1"
+        ],
+        "hp": "110",
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            {
+                "type": "Ability",
+                "name": "Balloon Therapy",
+                "text": "Once during your turn, you may attach a Therapeutic Energy card from your hand to 1 of your Pokémon."
+            }
+        ],
+        "attacks": [
+            {
+                "cost": [
+                    "Psychic",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "name": "Magical Shot",
+                "damage": "100",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Metal",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv2",
+            "name": "Paldea Evolved",
+            "series": "Scarlet & Violet",
+            "printedTotal": 193,
+            "total": 279,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "releaseDate": "2023/06/09",
+            "updatedAt": "2023/06/09 15:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv2/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv2/logo.png"
+            }
+        },
+        "number": "84",
+        "rarity": "Rare",
+        "nationalPokedexNumbers": [
+            40
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv2/84.png",
+            "large": "https://images.pokemontcg.io/sv2/84_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv2-84",
+            "updatedAt": "2023/08/03",
+            "prices": {
+                "averageSellPrice": 0.09,
+                "lowPrice": 0.02,
+                "trendPrice": 0.09,
+                "germanProLow": 0,
+                "suggestedPrice": 0,
+                "reverseHoloSell": 0.2,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.19,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.06,
+                "avg7": 0.07,
+                "avg30": 0.08,
+                "reverseHoloAvg1": 0.16,
+                "reverseHoloAvg7": 0.16,
+                "reverseHoloAvg30": 0.19
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "sm3-11",
+        "name": "Heracross",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "110",
+        "types": [
+            "Grass"
+        ],
+        "abilities": [
+            {
+                "name": "Guts",
+                "text": "If this Pokémon would be Knocked Out by damage from an attack, flip a coin. If heads, this Pokémon is not Knocked Out, and its remaining HP becomes 10.",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Pitch",
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "damage": "50",
+                "text": "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sm3",
+            "name": "Burning Shadows",
+            "series": "Sun & Moon",
+            "printedTotal": 147,
+            "total": 177,
+            "legalities": {
+                "unlimited": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "BUS",
+            "releaseDate": "2017/08/05",
+            "updatedAt": "2022/10/11 21:39:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sm3/symbol.png",
+                "logo": "https://images.pokemontcg.io/sm3/logo.png"
+            }
+        },
+        "number": "11",
+        "rarity": "Rare",
+        "nationalPokedexNumbers": [
+            214
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sm3/11.png",
+            "large": "https://images.pokemontcg.io/sm3/11_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sm3-11",
+            "updatedAt": "2025/09/17",
+            "prices": {
+                "averageSellPrice": 0.18,
+                "lowPrice": 0.02,
+                "trendPrice": 0.24,
+                "germanProLow": 0,
+                "suggestedPrice": 0,
+                "reverseHoloSell": 0.31,
+                "reverseHoloLow": 0.03,
+                "reverseHoloTrend": 0.32,
+                "lowPriceExPlus": 0.03,
+                "avg1": 0.89,
+                "avg7": 0.2,
+                "avg30": 0.2,
+                "reverseHoloAvg1": 0.1,
+                "reverseHoloAvg7": 0.28,
+                "reverseHoloAvg30": 0.38
+            }
+        },
+        "qty": 1,
+        "holo": true,
+        "location": ""
+    },
+    {
+        "id": "sv10-96",
+        "name": "Team Rocket's Tyranitar",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 2"
+        ],
+        "hp": "180",
+        "types": [
+            "Fighting"
+        ],
+        "abilities": [
+            {
+                "name": "Sand Stream",
+                "text": "During Pokémon Checkup, if this Pokémon is in the Active Spot, put 2 damage counters on each of your opponent's Basic Pokémon.",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Demolition Tackle",
+                "cost": [
+                    "Fighting",
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "180",
+                "text": "Discard an Energy from your opponent's Active Pokémon."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Grass",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv10",
+            "name": "Destined Rivals",
+            "series": "Scarlet & Violet",
+            "printedTotal": 182,
+            "total": 244,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "DRI",
+            "releaseDate": "2025/05/30",
+            "updatedAt": "2025/05/29 22:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv10/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv10/logo.png"
+            }
+        },
+        "number": "96",
+        "rarity": "Rare Holo Cosmos",
+        "nationalPokedexNumbers": [
+            248
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv10/96.png",
+            "large": "https://images.pokemontcg.io/sv10/96_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv10-96",
+            "updatedAt": "2026/01/16",
+            "prices": {
+                "averageSellPrice": 0.13,
+                "lowPrice": 0.02,
+                "trendPrice": 0.11,
+                "germanProLow": 0,
+                "suggestedPrice": 0,
+                "reverseHoloSell": 0.27,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.33,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.06,
+                "avg7": 0.08,
+                "avg30": 0.1,
+                "reverseHoloAvg1": 0.4,
+                "reverseHoloAvg7": 0.28,
+                "reverseHoloAvg30": 0.26
+            }
+        },
+        "qty": 2,
+        "holo": true
+    },
+    {
+        "id": "sv6-110",
+        "name": "Ting-Lu",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "140",
+        "types": [
+            "Fighting"
+        ],
+        "attacks": [
+            {
+                "name": "Ground Crasher",
+                "cost": [
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "30",
+                "text": "If a Stadium is in play, this attack also does 30 damage to each of your opponent's Benched Pokémon, and discard that Stadium. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+            },
+            {
+                "name": "Hammer In",
+                "cost": [
+                    "Fighting",
+                    "Fighting",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "110",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Grass",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv6",
+            "name": "Twilight Masquerade",
+            "series": "Scarlet & Violet",
+            "printedTotal": 167,
+            "total": 226,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "TWM",
+            "releaseDate": "2024/05/24",
+            "updatedAt": "2024/05/23 15:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv6/logo.png"
+            }
+        },
+        "number": "110",
+        "rarity": "Rare",
+        "nationalPokedexNumbers": [
+            1003
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv6/110.png",
+            "large": "https://images.pokemontcg.io/sv6/110_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv6-110",
+            "updatedAt": "2025/11/21",
+            "prices": {
+                "averageSellPrice": 0.07,
+                "lowPrice": 0.02,
+                "trendPrice": 0.07,
+                "germanProLow": 0,
+                "suggestedPrice": 0,
+                "reverseHoloSell": 0.24,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.23,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.04,
+                "avg7": 0.05,
+                "avg30": 0.07,
+                "reverseHoloAvg1": 0.16,
+                "reverseHoloAvg7": 0.15,
+                "reverseHoloAvg30": 0.23
+            }
+        },
+        "qty": 1,
+        "holo": true
+    },
+    {
+        "id": "sv6-111",
+        "name": "Okidogi",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "130",
+        "types": [
+            "Fighting"
+        ],
+        "abilities": [
+            {
+                "name": "Adrena-Power",
+                "text": "If this Pokémon has any Darkness Energy attached, it gets +100 HP, and the attacks it uses do 100 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Good Punch",
+                "cost": [
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "70",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Psychic",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv6",
+            "name": "Twilight Masquerade",
+            "series": "Scarlet & Violet",
+            "printedTotal": 167,
+            "total": 226,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "TWM",
+            "releaseDate": "2024/05/24",
+            "updatedAt": "2024/05/23 15:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv6/logo.png"
+            }
+        },
+        "number": "111",
+        "rarity": "Rare",
+        "images": {
+            "small": "https://images.pokemontcg.io/sv6/111.png",
+            "large": "https://images.pokemontcg.io/sv6/111_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv6-111",
+            "updatedAt": "2025/11/21",
+            "prices": {
+                "averageSellPrice": 0.06,
+                "lowPrice": 0.02,
+                "trendPrice": 0.06,
+                "germanProLow": 0,
+                "suggestedPrice": 0,
+                "reverseHoloSell": 0.17,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.12,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.02,
+                "avg7": 0.06,
+                "avg30": 0.06,
+                "reverseHoloAvg1": 0.15,
+                "reverseHoloAvg7": 0.11,
+                "reverseHoloAvg30": 0.16
+            }
+        },
+        "qty": 1,
+        "holo": true
+    },
+    {
+        "id": "sv1-96",
+        "name": "Klefki",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "70",
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            {
+                "type": "Ability",
+                "name": "Mischievous Lock",
+                "text": "As long as this Pokémon is in the Active Spot, Basic Pokémon in play (both yours and your opponent's) have no Abilities, except for Mischievous Lock."
+            }
+        ],
+        "attacks": [
+            {
+                "cost": [
+                    "Colorless"
+                ],
+                "name": "Joust",
+                "damage": "10",
+                "text": "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
+                "convertedEnergyCost": 1
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Metal",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv1",
+            "name": "Scarlet & Violet",
+            "series": "Scarlet & Violet",
+            "printedTotal": 198,
+            "total": 258,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "releaseDate": "2023/03/31",
+            "updatedAt": "2023/03/31 15:45:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv1/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv1/logo.png"
+            }
+        },
+        "number": "96",
+        "rarity": "Rare",
+        "nationalPokedexNumbers": [
+            707
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv1/96.png",
+            "large": "https://images.pokemontcg.io/sv1/96_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv1-96",
+            "updatedAt": "2026/01/16",
+            "prices": {
+                "averageSellPrice": 0.2,
+                "lowPrice": 0.02,
+                "trendPrice": 0.12,
+                "germanProLow": 0,
+                "suggestedPrice": 0,
+                "reverseHoloSell": 0.31,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.24,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.09,
+                "avg7": 0.14,
+                "avg30": 0.17,
+                "reverseHoloAvg1": 0.13,
+                "reverseHoloAvg7": 0.22,
+                "reverseHoloAvg30": 0.31
+            }
+        },
+        "qty": 1,
+        "holo": true
+    },
+    {
+        "id": "sv10-51",
+        "name": "Team Rocket's Articuno",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "120",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            {
+                "name": "Repelling Veil",
+                "text": "Prevent all effects of attacks used by your opponent's Pokémon done to your Basic Team Rocket's Pokémon. (Existing effects are not removed. Damage is not an effect.)",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Dark Frost",
+                "cost": [
+                    "Water",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "60+",
+                "text": "If this Pokémon has any Team Rocket's Energy attached, this attack does 60 more damage."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Lightning",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv10",
+            "name": "Destined Rivals",
+            "series": "Scarlet & Violet",
+            "printedTotal": 182,
+            "total": 244,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "DRI",
+            "releaseDate": "2025/05/30",
+            "updatedAt": "2025/05/29 22:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv10/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv10/logo.png"
+            }
+        },
+        "number": "51",
+        "rarity": "Rare Holo Cosmos",
+        "nationalPokedexNumbers": [
+            144
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv10/51.png",
+            "large": "https://images.pokemontcg.io/sv10/51_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv10-51",
+            "updatedAt": "2026/01/21",
+            "prices": {
+                "averageSellPrice": 0.13,
+                "lowPrice": 0.02,
+                "trendPrice": 0.12,
+                "germanProLow": 0,
+                "suggestedPrice": 0,
+                "reverseHoloSell": 0.32,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.36,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.08,
+                "avg7": 0.11,
+                "avg30": 0.12,
+                "reverseHoloAvg1": 0.32,
+                "reverseHoloAvg7": 0.26,
+                "reverseHoloAvg30": 0.32
+            }
+        },
+        "qty": 1,
+        "holo": true
+    },
+    {
+        "id": "sv10-70",
+        "name": "Team Rocket's Zapdos",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "120",
+        "types": [
+            "Lightning"
+        ],
+        "attacks": [
+            {
+                "name": "Jamming Wing",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30",
+                "text": "You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon."
+            },
+            {
+                "name": "Wicked Thunder",
+                "cost": [
+                    "Lightning",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "60+",
+                "text": "If this Pokémon has any Team Rocket's Energy attached, this attack does 60 more damage."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Lightning",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv10",
+            "name": "Destined Rivals",
+            "series": "Scarlet & Violet",
+            "printedTotal": 182,
+            "total": 244,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "DRI",
+            "releaseDate": "2025/05/30",
+            "updatedAt": "2025/05/29 22:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv10/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv10/logo.png"
+            }
+        },
+        "number": "70",
+        "rarity": "Rare Holo Cosmos",
+        "nationalPokedexNumbers": [
+            145
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv10/70.png",
+            "large": "https://images.pokemontcg.io/sv10/70_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv10-70",
+            "updatedAt": "2026/01/19",
+            "prices": {
+                "averageSellPrice": 0.13,
+                "lowPrice": 0.02,
+                "trendPrice": 0.08,
+                "germanProLow": 0,
+                "suggestedPrice": 0,
+                "reverseHoloSell": 0.25,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.25,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.16,
+                "avg7": 0.09,
+                "avg30": 0.11,
+                "reverseHoloAvg1": 0.25,
+                "reverseHoloAvg7": 0.24,
+                "reverseHoloAvg30": 0.25
+            }
+        },
+        "qty": 1,
+        "holo": true
+    },
+    {
+        "id": "me2pt5-72",
+        "name": "Iono's Kilowattrel",
+        "qty": 1,
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 1"
+        ],
+        "hp": "120",
+        "types": [
+            "Lightning"
+        ],
+        "abilities": [
+            {
+                "name": "Flashing Draw",
+                "text": "You must discard a Basic Lightning Energy from this Pokémon in order to use this Ability. Once during your turn, you may draw cards until you have 6 cards in your hand.",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Mach Bolt",
+                "cost": [
+                    "Lightning",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "70",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Lightning",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "me2pt5",
+            "name": "Ascended Heroes",
+            "series": "Mega Evolution",
+            "printedTotal": 217,
+            "total": 295,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "ASC",
+            "releaseDate": "2026/01/30",
+            "updatedAt": "2026/01/30 15:00:00",
+            "images": {
+                "symbol": "https://images.scrydex.com/pokemon/me2pt5-symbol/symbol",
+                "logo": "https://images.scrydex.com/pokemon/me2pt5-logo/logo"
+            }
+        },
+        "number": "72",
+        "rarity": "Rare",
+        "nationalPokedexNumbers": [
+            940
+        ],
+        "images": {
+            "small": "https://images.scrydex.com/pokemon/me2pt5-72/small",
+            "large": "https://images.scrydex.com/pokemon/me2pt5-72/large"
+        }
+    },
+    {
+        "id": "sv3-141",
+        "name": "Scizor",
+        "qty": 1,
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 1"
+        ],
+        "hp": "140",
+        "types": [
+            "Metal"
+        ],
+        "attacks": [
+            {
+                "name": "Punishing Scissors",
+                "cost": [
+                    "Metal"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10+",
+                "text": "This attack does 50 more damage for each of your opponent's Pokémon in play that has an Ability."
+            },
+            {
+                "name": "Cut",
+                "cost": [
+                    "Metal",
+                    "Metal"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "70",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv3",
+            "name": "Obsidian Flames",
+            "series": "Scarlet & Violet",
+            "printedTotal": 197,
+            "total": 230,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "releaseDate": "2023/08/11",
+            "updatedAt": "2023/08/11 15:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv3/logo.png"
+            }
+        },
+        "number": "141",
+        "rarity": "Rare",
+        "nationalPokedexNumbers": [
+            212
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv3/141.png",
+            "large": "https://images.pokemontcg.io/sv3/141_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv3-141",
+            "updatedAt": "2025/11/21",
+            "prices": {
+                "averageSellPrice": 0.07,
+                "lowPrice": 0.02,
+                "trendPrice": 0.07,
+                "germanProLow": 0.0,
+                "suggestedPrice": 0.0,
+                "reverseHoloSell": 0.25,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.2,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.06,
+                "avg7": 0.06,
+                "avg30": 0.07,
+                "reverseHoloAvg1": 0.08,
+                "reverseHoloAvg7": 0.23,
+                "reverseHoloAvg30": 0.21
+            }
+        }
+    },
+    {
+        "id": "sv3-72",
+        "name": "Toxtricity",
+        "qty": 1,
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 1"
+        ],
+        "hp": "140",
+        "types": [
+            "Lightning"
+        ],
+        "attacks": [
+            {
+                "name": "Leer",
+                "cost": [
+                    "Lightning"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+            },
+            {
+                "name": "Loud Mix",
+                "cost": [
+                    "Lightning",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "50+",
+                "text": "This attack does 30 more damage for each different type of Pokémon on your Bench."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv3",
+            "name": "Obsidian Flames",
+            "series": "Scarlet & Violet",
+            "printedTotal": 197,
+            "total": 230,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "releaseDate": "2023/08/11",
+            "updatedAt": "2023/08/11 15:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv3/logo.png"
+            }
+        },
+        "number": "72",
+        "rarity": "Rare",
+        "nationalPokedexNumbers": [
+            849
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv3/72.png",
+            "large": "https://images.pokemontcg.io/sv3/72_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv3-72",
+            "updatedAt": "2026/01/16",
+            "prices": {
+                "averageSellPrice": 0.05,
+                "lowPrice": 0.02,
+                "trendPrice": 0.06,
+                "germanProLow": 0.0,
+                "suggestedPrice": 0.0,
+                "reverseHoloSell": 0.2,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.3,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.03,
+                "avg7": 0.04,
+                "avg30": 0.06,
+                "reverseHoloAvg1": 0.26,
+                "reverseHoloAvg7": 0.23,
+                "reverseHoloAvg30": 0.21
+            }
+        }
+    },
+    {
+        "id": "sv10-18",
+        "name": "Hydrapple",
+        "qty": 1,
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 2"
+        ],
+        "hp": "170",
+        "types": [
+            "Grass"
+        ],
+        "attacks": [
+            {
+                "name": "Hydra Breath",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Discard 6 Basic Grass Energy cards from your hand, and Knock Out your opponent's Active Pokémon. If you can't discard 6 cards in this way, this attack does nothing."
+            },
+            {
+                "name": "Whip Smash",
+                "cost": [
+                    "Grass",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "140",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv10",
+            "name": "Destined Rivals",
+            "series": "Scarlet & Violet",
+            "printedTotal": 182,
+            "total": 244,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "DRI",
+            "releaseDate": "2025/05/30",
+            "updatedAt": "2025/05/29 22:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv10/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv10/logo.png"
+            }
+        },
+        "number": "18",
+        "rarity": "Rare",
+        "nationalPokedexNumbers": [
+            1019
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv10/18.png",
+            "large": "https://images.pokemontcg.io/sv10/18_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv10-18",
+            "updatedAt": "2026/05/14",
+            "prices": {
+                "averageSellPrice": 0.06,
+                "lowPrice": 0.02,
+                "trendPrice": 0.09,
+                "germanProLow": 0.0,
+                "suggestedPrice": 0.0,
+                "reverseHoloSell": 0.19,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.25,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.07,
+                "avg7": 0.08,
+                "avg30": 0.07,
+                "reverseHoloAvg1": 0.28,
+                "reverseHoloAvg7": 0.3,
+                "reverseHoloAvg30": 0.23
+            }
+        }
+    },
+    {
+        "id": "sv10-36",
+        "name": "Ethan's Magcargo",
+        "qty": 1,
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 1"
+        ],
+        "hp": "130",
+        "types": [
+            "Fire"
+        ],
+        "abilities": [
+            {
+                "name": "Melt Away",
+                "text": "If this Pokémon has no Energy attached, it has no Retreat Cost.",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Lava Burst",
+                "cost": [
+                    "Fire",
+                    "Fire",
+                    "Fire"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "70×",
+                "text": "Discard up to 5 Fire Energy from this Pokémon. This attack does 70 damage for each card you discarded in this way."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Water",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv10",
+            "name": "Destined Rivals",
+            "series": "Scarlet & Violet",
+            "printedTotal": 182,
+            "total": 244,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "DRI",
+            "releaseDate": "2025/05/30",
+            "updatedAt": "2025/05/29 22:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv10/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv10/logo.png"
+            }
+        },
+        "number": "36",
+        "rarity": "Rare",
+        "nationalPokedexNumbers": [
+            219
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv10/36.png",
+            "large": "https://images.pokemontcg.io/sv10/36_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv10-36",
+            "updatedAt": "2026/02/22",
+            "prices": {
+                "averageSellPrice": 0.08,
+                "lowPrice": 0.02,
+                "trendPrice": 0.06,
+                "germanProLow": 0.0,
+                "suggestedPrice": 0.0,
+                "reverseHoloSell": 0.24,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.22,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.04,
+                "avg7": 0.07,
+                "avg30": 0.07,
+                "reverseHoloAvg1": 0.29,
+                "reverseHoloAvg7": 0.19,
+                "reverseHoloAvg30": 0.22
+            }
+        }
+    },
+    {
+        "id": "sv10-20",
+        "name": "Team Rocket's Spidops",
+        "qty": 1,
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 1"
+        ],
+        "hp": "130",
+        "types": [
+            "Grass"
+        ],
+        "abilities": [
+            {
+                "name": "Charging Up",
+                "text": "Once during your turn, you may attach a Basic Energy card from your discard pile to this Pokémon.",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Rocket Rush",
+                "cost": [
+                    "Grass",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30×",
+                "text": "This attack does 30 damage for each of your Team Rocket's Pokémon in play."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv10",
+            "name": "Destined Rivals",
+            "series": "Scarlet & Violet",
+            "printedTotal": 182,
+            "total": 244,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "DRI",
+            "releaseDate": "2025/05/30",
+            "updatedAt": "2025/05/29 22:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv10/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv10/logo.png"
+            }
+        },
+        "number": "20",
+        "rarity": "Rare",
+        "nationalPokedexNumbers": [
+            918
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv10/20.png",
+            "large": "https://images.pokemontcg.io/sv10/20_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv10-20",
+            "updatedAt": "2026/05/12",
+            "prices": {
+                "averageSellPrice": 0.14,
+                "lowPrice": 0.02,
+                "trendPrice": 0.12,
+                "germanProLow": 0.0,
+                "suggestedPrice": 0.0,
+                "reverseHoloSell": 0.27,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.35,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.08,
+                "avg7": 0.13,
+                "avg30": 0.13,
+                "reverseHoloAvg1": 0.06,
+                "reverseHoloAvg7": 0.3,
+                "reverseHoloAvg30": 0.26
+            }
+        }
+    },
+    {
+        "id": "sv9-21",
+        "name": "Magmortar",
+        "qty": 1,
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 1"
+        ],
+        "hp": "130",
+        "types": [
+            "Fire"
+        ],
+        "abilities": [
+            {
+                "name": "Magma Surge",
+                "text": "During Pokémon Checkup, put 3 more damage counters on your opponent's Burned Pokémon.",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Searing Flame",
+                "cost": [
+                    "Fire",
+                    "Fire",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "90",
+                "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Burned."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Water",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv9",
+            "name": "Journey Together",
+            "series": "Scarlet & Violet",
+            "printedTotal": 159,
+            "total": 190,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "JTG",
+            "releaseDate": "2025/03/28",
+            "updatedAt": "2025/03/27 16:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv9/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv9/logo.png"
+            }
+        },
+        "number": "21",
+        "rarity": "Rare",
+        "nationalPokedexNumbers": [
+            467
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv9/21.png",
+            "large": "https://images.pokemontcg.io/sv9/21_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv9-21",
+            "updatedAt": "2026/05/14",
+            "prices": {
+                "averageSellPrice": 0.07,
+                "lowPrice": 0.02,
+                "trendPrice": 0.05,
+                "germanProLow": 0.0,
+                "suggestedPrice": 0.0,
+                "reverseHoloSell": 0.34,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.5,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.06,
+                "avg7": 0.05,
+                "avg30": 0.06,
+                "reverseHoloAvg1": 0.32,
+                "reverseHoloAvg7": 0.55,
+                "reverseHoloAvg30": 0.35
+            }
+        }
+    },
+    {
+        "id": "sv10-159",
+        "name": "Arven's Greedent",
+        "qty": 1,
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 1"
+        ],
+        "hp": "120",
+        "types": [
+            "Colorless"
+        ],
+        "abilities": [
+            {
+                "name": "Greedy Order",
+                "text": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put up to 2 Arven's Sandwich cards from your discard pile into your hand.",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Rolling Tackle",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "50",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv10",
+            "name": "Destined Rivals",
+            "series": "Scarlet & Violet",
+            "printedTotal": 182,
+            "total": 244,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "DRI",
+            "releaseDate": "2025/05/30",
+            "updatedAt": "2025/05/29 22:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv10/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv10/logo.png"
+            }
+        },
+        "number": "159",
+        "rarity": "Rare",
+        "nationalPokedexNumbers": [
+            820
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv10/159.png",
+            "large": "https://images.pokemontcg.io/sv10/159_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv10-159",
+            "updatedAt": "2025/11/18",
+            "prices": {
+                "averageSellPrice": 0.06,
+                "lowPrice": 0.02,
+                "trendPrice": 0.06,
+                "germanProLow": 0.0,
+                "suggestedPrice": 0.0,
+                "reverseHoloSell": 0.19,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.27,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.03,
+                "avg7": 0.04,
+                "avg30": 0.05,
+                "reverseHoloAvg1": 0.12,
+                "reverseHoloAvg7": 0.22,
+                "reverseHoloAvg30": 0.19
+            }
+        }
+    },
+    {
+        "id": "me2pt5-96",
+        "name": "Hop's Trevenant",
+        "qty": 1,
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 1"
+        ],
+        "hp": "140",
+        "types": [
+            "Psychic"
+        ],
+        "attacks": [
+            {
+                "name": "Horrifying Revenge",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "30+",
+                "text": "If any of your Hop's Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 100 more damage."
+            },
+            {
+                "name": "Corner",
+                "cost": [
+                    "Psychic",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "90",
+                "text": "During your opponent's next turn, the Defending Pokémon can't retreat."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Darkness",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "me2pt5",
+            "name": "Ascended Heroes",
+            "series": "Mega Evolution",
+            "printedTotal": 217,
+            "total": 295,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "ASC",
+            "releaseDate": "2026/01/30",
+            "updatedAt": "2026/01/30 15:00:00",
+            "images": {
+                "symbol": "https://images.scrydex.com/pokemon/me2pt5-symbol/symbol",
+                "logo": "https://images.scrydex.com/pokemon/me2pt5-logo/logo"
+            }
+        },
+        "number": "96",
+        "rarity": "Rare",
+        "nationalPokedexNumbers": [
+            709
+        ],
+        "images": {
+            "small": "https://images.scrydex.com/pokemon/me2pt5-96/small",
+            "large": "https://images.scrydex.com/pokemon/me2pt5-96/large"
+        }
+    },
+    {
+        "id": "sv4-72",
+        "name": "Xatu",
+        "qty": 1,
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 1"
+        ],
+        "hp": "100",
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            {
+                "name": "Clairvoyant Sense",
+                "text": "Once during your turn, you may attach a Basic Psychic Energy card from your hand to 1 of your Benched Pokémon. If you attached Energy to a Pokémon in this way, draw 2 cards.",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Super Psy Bolt",
+                "cost": [
+                    "Psychic",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "80",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Darkness",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv4",
+            "name": "Paradox Rift",
+            "series": "Scarlet & Violet",
+            "printedTotal": 182,
+            "total": 266,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "releaseDate": "2023/11/03",
+            "updatedAt": "2023/11/03 15:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv4/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv4/logo.png"
+            }
+        },
+        "number": "72",
+        "rarity": "Rare",
+        "nationalPokedexNumbers": [
+            178
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv4/72.png",
+            "large": "https://images.pokemontcg.io/sv4/72_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv4-72",
+            "updatedAt": "2026/01/19",
+            "prices": {
+                "averageSellPrice": 0.09,
+                "lowPrice": 0.02,
+                "trendPrice": 0.12,
+                "germanProLow": 0.0,
+                "suggestedPrice": 0.0,
+                "reverseHoloSell": 0.14,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.13,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.13,
+                "avg7": 0.1,
+                "avg30": 0.11,
+                "reverseHoloAvg1": 0.2,
+                "reverseHoloAvg7": 0.18,
+                "reverseHoloAvg30": 0.15
+            }
+        }
+    },
+    {
+        "id": "sv9-63",
+        "qty": 1,
+        "name": "Metagross",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Stage 2"
+        ],
+        "hp": "170",
+        "types": [
+            "Psychic"
+        ],
+        "attacks": [
+            {
+                "name": "Wrack Down",
+                "cost": [
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "60",
+                "text": ""
+            },
+            {
+                "name": "Conjoined Beams",
+                "cost": [
+                    "Psychic",
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "130+",
+                "text": "If Beldum and Metang are on your Bench, this attack does 150 more damage."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Darkness",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "sv9",
+            "name": "Journey Together",
+            "series": "Scarlet & Violet",
+            "printedTotal": 159,
+            "total": 190,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "JTG",
+            "releaseDate": "2025/03/28",
+            "updatedAt": "2025/03/27 16:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/sv9/symbol.png",
+                "logo": "https://images.pokemontcg.io/sv9/logo.png"
+            }
+        },
+        "number": "63",
+        "rarity": "Rare",
+        "nationalPokedexNumbers": [
+            376
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/sv9/63.png",
+            "large": "https://images.pokemontcg.io/sv9/63_hires.png"
+        },
+        "cardmarket": {
+            "url": "https://prices.pokemontcg.io/cardmarket/sv9-63",
+            "updatedAt": "2026/01/19",
+            "prices": {
+                "averageSellPrice": 0.05,
+                "lowPrice": 0.02,
+                "trendPrice": 0.06,
+                "germanProLow": 0.0,
+                "suggestedPrice": 0.0,
+                "reverseHoloSell": 0.26,
+                "reverseHoloLow": 0.02,
+                "reverseHoloTrend": 0.31,
+                "lowPriceExPlus": 0.02,
+                "avg1": 0.04,
+                "avg7": 0.05,
+                "avg30": 0.05,
+                "reverseHoloAvg1": 0.09,
+                "reverseHoloAvg7": 0.25,
+                "reverseHoloAvg30": 0.27
+            }
+        }
+    },
+    {
+        "id": "me2-26",
+        "name": "Suicune",
+        "qty": 1,
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "130",
+        "types": [
+            "Water"
+        ],
+        "attacks": [
+            {
+                "name": "Crystal Fall",
+                "cost": [
+                    "Water",
+                    "Water"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30+",
+                "text": "If you have at least 4 Water Energy in play, this attack does 90 more damage."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Lightning",
+                "value": "×2"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "set": {
+            "id": "me2",
+            "name": "Phantasmal Flames",
+            "series": "Mega Evolution",
+            "printedTotal": 94,
+            "total": 130,
+            "legalities": {
+                "unlimited": "Legal",
+                "standard": "Legal",
+                "expanded": "Legal"
+            },
+            "ptcgoCode": "PFL",
+            "releaseDate": "2025/11/14",
+            "updatedAt": "2025/09/25 15:00:00",
+            "images": {
+                "symbol": "https://images.pokemontcg.io/me2/symbol.png",
+                "logo": "https://images.pokemontcg.io/me2/logo.png"
+            }
+        },
+        "number": "26",
+        "rarity": "Rare",
+        "nationalPokedexNumbers": [
+            245
+        ],
+        "images": {
+            "small": "https://images.pokemontcg.io/me2/26.png",
+            "large": "https://images.pokemontcg.io/me2/26_hires.png"
+        }
+    }
+]

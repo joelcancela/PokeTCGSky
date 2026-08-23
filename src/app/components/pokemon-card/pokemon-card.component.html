@@ -1,0 +1,56 @@
+<div
+  #cardElement
+  class="card {{ typesClass }} interactive"
+  [class.active]="isActive"
+  [class.interacting]="isInteracting"
+  [class.loading]="loading"
+  [class.masked]="!!mask"
+  [attr.data-number]="numberLower"
+  [attr.data-set]="set"
+  [attr.data-subtypes]="subtypesClass"
+  [attr.data-supertype]="supertypeLower"
+  [attr.data-rarity]="rarityLower"
+  [attr.data-trainer-gallery]="isTrainerGallery"
+  [attr.style]="dynamicStyles"
+>
+  <div class="card__translater">
+    <button
+      class="card__rotator"
+      (click)="onCardClick()"
+      (pointermove)="onPointerMove($event)"
+      (mouseout)="onMouseOut()"
+      (blur)="onBlur()"
+      [attr.aria-label]="'Expand the Pokemon Card; ' + name + '.'"
+      tabindex="0"
+    >
+      <img
+        class="card__back"
+        [src]="backImg"
+        alt="The back of a Pokemon Card, a Pokeball in the center with Pokemon logo above and below"
+        loading="lazy"
+        width="660"
+        height="921"
+      />
+      <div
+        class="card__front"
+        [attr.style]="staticStyles + foilStyles"
+      >
+        <img
+          [src]="frontImg"
+          [alt]="'Front design of the ' + name + ' Pokemon Card, with the stats and info around the edge'"
+          (load)="onImageLoad()"
+          loading="lazy"
+          width="660"
+          height="921"
+        />
+        <div class="card__shine"></div>
+        <div class="card__glare"></div>
+      </div>
+    </button>
+  </div>
+</div>
+
+
+<div>
+  <span>{{pokemon.name}} {{'('+pokemon.rarity+')'}} x{{pokemon.qty}} [{{pokemon.id}}] {{pokemon.location? '- '+pokemon.location : ''}}</span>
+</div>

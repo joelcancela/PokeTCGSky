@@ -1,0 +1,18 @@
+<div>
+  <h1>PokéTCGSky</h1>
+</div>
+<hr />
+<div class="row">
+  <ng-container
+    *ngFor="let pokemon of pokemons | pokemonLocationFilter:currentFilter:filterMetadata | slice: (page-1) * pageSize : page * pageSize">
+    <div class="col-6 col-md-4 col-lg-3">
+      <app-pokemon-card [pokemon]="pokemon"></app-pokemon-card>
+    </div>
+  </ng-container>
+</div>
+<div class="row">
+  <div class="col-12">
+    <ngb-pagination [(page)]="page" [pageSize]="pageSize" [maxSize]="5" [collectionSize]="filterMetadata.currentCount">
+    </ngb-pagination>
+  </div>
+</div>
