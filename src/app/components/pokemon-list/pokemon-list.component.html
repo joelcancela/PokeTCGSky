@@ -1,18 +1,69 @@
-<div>
-  <h1>PokéTCGSky</h1>
-</div>
-<hr />
-<div class="row">
+<header class="collection-header">
+  <div class="collection-header__intro">
+    <h1>Poké<span>TCG</span>Sky</h1>
+  </div>
+  <div class="collection-header__total">
+    <strong>{{ total }}</strong>
+    <span>cards owned</span>
+  </div>
+</header>
+
+<section class="collection-stats" aria-label="Collection summary">
+  <div class="stat-item">
+    <span class="stat-item__label">Unique cards</span>
+    <strong>{{ pokemons.length }}</strong>
+  </div>
+  <div class="stat-item stat-item--gold">
+    <span class="stat-item__label">Holographic</span>
+    <strong>{{ totalHolos }}</strong>
+  </div>
+  <div class="stat-item stat-item--blue">
+    <span class="stat-item__label">Steel-Water Deck</span>
+    <strong>{{ totalDeckEauAcier }}</strong>
+  </div>
+  <div class="stat-item stat-item--red">
+    <span class="stat-item__label">Gengar Deck</span>
+    <strong>{{ totalDeckFeuElek }}</strong>
+  </div>
+</section>
+
+<section class="collection-toolbar" aria-label="Collection filters">
+  <div>
+    <p class="toolbar-label">Show</p>
+    <div class="filter-list" role="group" aria-label="Filter cards">
+      <button
+        *ngFor="let filter of pokemonFilters"
+        type="button"
+        class="filter-button"
+        [class.filter-button--active]="currentFilter === filter"
+        [attr.aria-pressed]="currentFilter === filter"
+        (click)="setFilter(filter)">
+        {{ filterLabel(filter) }}
+      </button>
+    </div>
+  </div>
+  <p class="result-count">{{ filterMetadata.currentCount }} result<span *ngIf="filterMetadata.currentCount !== 1">s</span></p>
+</section>
+
+<div class="row card-grid">
   <ng-container
-    *ngFor="let pokemon of pokemons | pokemonLocationFilter:currentFilter:filterMetadata | slice: (page-1) * pageSize : page * pageSize">
-    <div class="col-6 col-md-4 col-lg-3">
+    *ngFor="let pokemon of filteredPokemons | slice: (page-1) * pageSize : page * pageSize">
+    <div class="col-6 col-md-4 col-lg-3 card-grid__item">
       <app-pokemon-card [pokemon]="pokemon"></app-pokemon-card>
     </div>
   </ng-container>
 </div>
-<div class="row">
-  <div class="col-12">
-    <ngb-pagination [(page)]="page" [pageSize]="pageSize" [maxSize]="5" [collectionSize]="filterMetadata.currentCount">
+
+<div class="pagination-wrap" *ngIf="filterMetadata.currentCount > pageSize">
+  <div>
+    <ngb-pagination
+      [(page)]="page"
+      [pageSize]="pageSize"
+      [maxSize]="5"
+      [collectionSize]="filterMetadata.currentCount"
+      [boundaryLinks]="false"
+      [directionLinks]="false"
+      [ellipses]="false">
     </ngb-pagination>
   </div>
 </div>

@@ -2,3 +2,66 @@
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+:root {
+	color-scheme: dark;
+	font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+}
+
+body {
+	min-width: 320px;
+	margin: 0;
+	background:
+		radial-gradient(circle at 15% 0%, rgba(43, 83, 125, 0.38), transparent 36rem),
+		linear-gradient(135deg, #0c1728 0%, #111f33 48%, #0b1524 100%);
+	color: #dce8f5;
+}
+
+button,
+input,
+select {
+	font: inherit;
+}
+
+/* The animated TCG cards also use Bootstrap's .card class. */
+.card.interactive {
+	border: 0;
+	background-color: transparent;
+}
+
+/* Keep the active card inside its grid column; scale is handled by transform. */
+.card.interactive.active .card__translater img {
+	width: 100% !important;
+}
+
+.card.interactive .card__rotator * {
+	image-rendering: auto;
+}
+
+.pagination {
+	display: flex;
+	gap: 0.45rem;
+	margin: 0;
+}
+
+.page-link {
+	min-width: 2.35rem;
+	border: 1px solid rgba(177, 201, 230, 0.25) !important;
+	border-radius: 6px !important;
+	background: rgba(22, 37, 59, 0.84);
+	color: #b7c6d9;
+	text-align: center;
+}
+
+.page-link:hover,
+.page-item.active .page-link {
+	border-color: #f5c84b !important;
+	background: #f5c84b;
+	color: #16253b;
+}
+
+.page-item.disabled .page-link {
+	border-color: rgba(177, 201, 230, 0.15);
+	background: rgba(22, 37, 59, 0.45);
+	color: #5f738c;
+}

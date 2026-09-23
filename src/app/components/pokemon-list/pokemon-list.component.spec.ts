@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PokemonListComponent } from './pokemon-list.component';
+import { PokemonCardModule } from '../pokemon-card/pokemon-card.module';
 
 describe('PokemonListComponent', () => {
   let component: PokemonListComponent;
@@ -8,9 +9,9 @@ describe('PokemonListComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PokemonListComponent ]
-    })
-    .compileComponents();
+      declarations: [PokemonListComponent],
+      imports: [NgbModule, PokemonCardModule]
+    }).compileComponents();
   });
 
   beforeEach(() => {

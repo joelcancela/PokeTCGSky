@@ -51,6 +51,7 @@ export class PokemonCardComponent implements OnInit {
   subtypesClass: string = '';
   isTrainerGallery: boolean = false;
   isActive: boolean = false;
+  isShowcaseActive: boolean = false;
   isInteracting: boolean = false;
   loading: boolean = true;
   foilStyles: string = '';
@@ -64,6 +65,7 @@ export class PokemonCardComponent implements OnInit {
   // Image sources
   backImg: string = '';
   frontImg: string = '';
+  largeImg: string = '';
   imgBase: string = '';
 
   // State management
@@ -100,8 +102,10 @@ export class PokemonCardComponent implements OnInit {
 
   // Other
   private repositionTimer: any;
+  private interactionTimer: any;
   private rafId: any = null;
   private pendingSpringUpdate: any = null;
+  private batchingSprings = false;
 
   constructor(
     private activeCardService: ActiveCardService,
@@ -109,6 +113,22 @@ export class PokemonCardComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    if (!this.pokemon) {
+      this.pokemon = {
+        id: '',
+        number: '',
+        name: '',
+        qty: 0,
+        rarity: 'common',
+        location: '',
+        supertype: 'Pokémon',
+        subtypes: ['basic'],
+        types: [''],
+        set: { id: '' },
+        images: {}
+      } as Pokemon;
+    }
+
     this.id = this.pokemon.id || '';
     this.name = this.pokemon.name || '';
     this.number = this.pokemon.number || '';
@@ -124,9 +144,10 @@ export class PokemonCardComponent implements OnInit {
     this.subtypes = this.pokemon.subtypes || 'basic';
     this.supertype = this.pokemon.supertype || 'pokémon';
     this.rarity = this.pokemon.rarity || 'common';
-    // Set the front image on mount
-    this.img = this.pokemon.images?.large || this.pokemon.images?.small || '';
-    this.frontImg = this.img;
+    // Use the high-resolution image for every card state.
+    this.largeImg = this.pokemon.images?.large || this.pokemon.images?.small || '';
+    this.img = this.largeImg;
+    this.frontImg = this.largeImg;
     this.backImg = this.back;
 
     // Process input properties
@@ -174,28 +195,45 @@ export class PokemonCardComponent implements OnInit {
 
     // Subscribe to spring updates for dynamic styles
     this.springRotate$.pipe(takeUntil(this.destroy$)).subscribe(() => {
-      this.updateDynamicStyles();
+      if (!this.batchingSprings) {
+        this.updateDynamicStyles();
+      }
     });
     this.springGlare$.pipe(takeUntil(this.destroy$)).subscribe(() => {
-      this.updateDynamicStyles();
+      if (!this.batchingSprings) {
+        this.updateDynamicStyles();
+      }
     });
     this.springBackground$.pipe(takeUntil(this.destroy$)).subscribe(() => {
-      this.updateDynamicStyles();
+      if (!this.batchingSprings) {
+        this.updateDynamicStyles();
+      }
     });
     this.springRotateDelta$.pipe(takeUntil(this.destroy$)).subscribe(() => {
-      this.updateDynamicStyles();
+      if (!this.batchingSprings) {
+        this.updateDynamicStyles();
+      }
     });
     this.springTranslate$.pipe(takeUntil(this.destroy$)).subscribe(() => {
-      this.updateDynamicStyles();
+      if (!this.batchingSprings) {
+        this.updateDynamicStyles();
+      }
     });
     this.springScale$.pipe(takeUntil(this.destroy$)).subscribe(() => {
-      this.updateDynamicStyles();
+      if (!this.batchingSprings) {
+        this.updateDynamicStyles();
+      }
     });
   }
 
   ngOnDestroy(): void {
     this.destroy$.next();
     this.destroy$.complete();
+    clearTimeout(this.interactionTimer);
+    clearTimeout(this.repositionTimer);
+    if (this.rafId !== null) {
+      cancelAnimationFrame(this.rafId);
+    }
     this.endShowcase();
   }
 
@@ -298,19 +336,19 @@ export class PokemonCardComponent implements OnInit {
     this.endShowcase();
 
     if (!this.isVisible$.value) {
-      this.interacting$.next(false);
+      this.setInteracting(false);
       return;
     }
 
     const activeCard = this.activeCardService.getActiveCard();
     if (activeCard && activeCard !== this.cardElement.nativeElement) {
-      this.interacting$.next(false);
+      this.setInteracting(false);
       return;
     }
 
-    this.interacting$.next(true);
+    this.setInteracting(true);
 
-    const el = e.target as HTMLElement;
+    const el = e.currentTarget as HTMLElement;
     const rect = el.getBoundingClientRect();
     const absolute = {
       x: e.clientX - rect.left,
@@ -362,11 +400,10 @@ export class PokemonCardComponent implements OnInit {
       this.rafId = null;
     }
     this.pendingSpringUpdate = null;
+    clearTimeout(this.interactionTimer);
 
-    setTimeout(() => {
-      const snapStiff = 0.01;
-      const snapDamp = 0.06;
-      this.interacting$.next(false);
+    this.interactionTimer = setTimeout(() => {
+      this.setInteracting(false);
 
       this.springRotate$.next({ x: 0, y: 0 });
       this.springGlare$.next({ x: 50, y: 50, o: 0 });
@@ -424,13 +461,7 @@ export class PokemonCardComponent implements OnInit {
   }
 
   private popover(): void {
-    const rect = this.cardElement.nativeElement.getBoundingClientRect();
     let delay = 100;
-    const scaleW = (window.innerWidth / rect.width) * 0.9;
-    const scaleH = (window.innerHeight / rect.height) * 0.9;
-    const scaleF = 1.75;
-
-    this.setCenter();
 
     if (this.firstPop$.value) {
       delay = 1000;
@@ -438,7 +469,8 @@ export class PokemonCardComponent implements OnInit {
     }
 
     this.firstPop$.next(false);
-    this.springScale$.next(Math.min(scaleW, scaleH, scaleF));
+    this.springScale$.next(1);
+    this.springTranslate$.next({ x: 0, y: 0 });
     this.interactEnd(delay);
   }
 
@@ -446,7 +478,7 @@ export class PokemonCardComponent implements OnInit {
     this.springScale$.next(1);
     this.springTranslate$.next({ x: 0, y: 0 });
     this.springRotateDelta$.next({ x: 0, y: 0 });
-    this.interactEnd(100);
+    this.interactEnd(0);
   }
 
   private reset(): void {
@@ -485,9 +517,17 @@ export class PokemonCardComponent implements OnInit {
   }
 
   private updateSprings(background: SpringValue, rotate: SpringValue, glare: SpringValue): void {
+    this.batchingSprings = true;
     this.springBackground$.next(background);
     this.springRotate$.next(rotate);
     this.springGlare$.next(glare);
+    this.batchingSprings = false;
+    this.updateDynamicStyles();
+  }
+
+  private setInteracting(value: boolean): void {
+    this.isInteracting = value;
+    this.interacting$.next(value);
   }
 
   private endShowcase(): void {
@@ -497,6 +537,7 @@ export class PokemonCardComponent implements OnInit {
       clearInterval(this.showcaseInterval);
       this.showcaseRunning = false;
     }
+    this.isShowcaseActive = false;
   }
 
   private startShowcaseAnimation(): void {
@@ -505,26 +546,29 @@ export class PokemonCardComponent implements OnInit {
     let r = 0;
 
     this.showcaseTimerStart = setTimeout(() => {
-      this.interacting$.next(true);
+      this.setInteracting(true);
+      this.isShowcaseActive = true;
       this.isActive = true;
 
       if (this.isVisible$.value) {
         this.showcaseRunning = true;
         this.showcaseInterval = setInterval(() => {
           r += 0.05;
-          this.springRotate$.next({
-            x: Math.sin(r) * 25,
-            y: Math.cos(r) * 25
-          });
-          this.springGlare$.next({
-            x: 55 + Math.sin(r) * 55,
-            y: 55 + Math.cos(r) * 55,
-            o: 0.8
-          });
-          this.springBackground$.next({
-            x: 20 + Math.sin(r) * 20,
-            y: 20 + Math.cos(r) * 20
-          });
+          this.updateSprings(
+            {
+              x: 20 + Math.sin(r) * 20,
+              y: 20 + Math.cos(r) * 20
+            },
+            {
+              x: Math.sin(r) * 25,
+              y: Math.cos(r) * 25
+            },
+            {
+              x: 55 + Math.sin(r) * 55,
+              y: 55 + Math.cos(r) * 55,
+              o: 0.8
+            }
+          );
         }, 20);
 
         this.showcaseTimerEnd = setTimeout(() => {
@@ -532,7 +576,8 @@ export class PokemonCardComponent implements OnInit {
           this.interactEnd(0);
         }, 4000);
       } else {
-        this.interacting$.next(false);
+        this.setInteracting(false);
+        this.isShowcaseActive = false;
         this.isActive = false;
       }
     }, 2000);

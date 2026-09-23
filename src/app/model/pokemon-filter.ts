@@ -1,6 +1,6 @@
 export enum PokemonFilter {
-  DECK_EAU_ACIER = "Deck EauAcier",
-  DECK_FEU_ELEK = "Deck FeuElek",
+  WHATEVER = "N/A",
   HOLO = "Holo",
-  WHATEVER = "N/A"
+  DECK_EAU_ACIER = "Steel-Water Deck",
+  DECK_FEU_ELEK = "Gengar Deck"
 }

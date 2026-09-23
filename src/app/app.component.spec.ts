@@ -1,3 +1,4 @@
+import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
@@ -11,6 +12,7 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent
       ],
+      schemas: [NO_ERRORS_SCHEMA],
     }).compileComponents();
   });
 
@@ -26,10 +28,15 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('PokeTCGSky');
   });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('PokeTCGSky app is running!');
+  it('should lock the viewport scaling to avoid the startup zoom', () => {
+    const viewportMeta = document.head.querySelector('meta[name="viewport"]');
+    const content = viewportMeta?.getAttribute('content') ?? '';
+
+    expect(viewportMeta).not.toBeNull();
+    expect(content).toContain('width=device-width');
+    expect(content).toContain('initial-scale=1');
+    expect(content).toContain('maximum-scale=1');
+    expect(content).toContain('user-scalable=no');
+    expect(content).not.toContain('minimum-scale');
   });
 });

@@ -1683,6 +1683,7 @@
     {
         "id": "svp-126",
         "name": "Palafin ex [OCG]",
+        "qty": 1,
         "supertype": "Pokémon",
         "subtypes": [
             "Stage 1",
@@ -1867,7 +1868,7 @@
     },
     {
         "id": "me2-13",
-        "name": "Mega Charizard X ex (Gengar Deck)",
+        "name": "Mega Charizard X ex",
         "qty": 1,
         "supertype": "Pokémon",
         "subtypes": [

@@ -2,6 +2,7 @@
   #cardElement
   class="card {{ typesClass }} interactive"
   [class.active]="isActive"
+  [class.showcase]="isShowcaseActive"
   [class.interacting]="isInteracting"
   [class.loading]="loading"
   [class.masked]="!!mask"
@@ -18,7 +19,7 @@
       class="card__rotator"
       (click)="onCardClick()"
       (pointermove)="onPointerMove($event)"
-      (mouseout)="onMouseOut()"
+      (pointerleave)="onMouseOut()"
       (blur)="onBlur()"
       [attr.aria-label]="'Expand the Pokemon Card; ' + name + '.'"
       tabindex="0"
@@ -51,6 +52,14 @@
 </div>
 
 
-<div>
-  <span>{{pokemon.name}} {{'('+pokemon.rarity+')'}} x{{pokemon.qty}} [{{pokemon.id}}] {{pokemon.location? '- '+pokemon.location : ''}}</span>
+<div class="card-info">
+  <div class="card-info__heading">
+    <strong>{{ pokemon.name }}</strong>
+    <span class="quantity-badge">x{{ pokemon.qty }}</span>
+  </div>
+  <div class="card-info__details">
+    <span>{{ pokemon.set?.['name'] || pokemon.set?.['id'] || pokemon.id }}</span>
+    <span *ngIf="pokemon.rarity" class="rarity-badge">{{ pokemon.rarity }}</span>
+  </div>
+  <span *ngIf="pokemon.location" class="location-label">{{ pokemon.location }}</span>
 </div>
