@@ -1,6 +1,6 @@
 .collection-header {
 	display: flex;
-	align-items: flex-end;
+	align-items: stretch;
 	justify-content: space-between;
 	gap: 2rem;
 	padding: 3.5rem 0 2rem;
@@ -25,14 +25,20 @@
 h1 {
 	margin: 0;
 	color: #f4f8ff;
-	font-size: clamp(2.4rem, 6vw, 4.8rem);
+	font-size: clamp(1.6rem, 4vw, 3.2rem);
 	font-weight: 800;
 	letter-spacing: 0.01em;
 	line-height: 0.95;
+	white-space: nowrap;
 }
 
 h1 span {
 	color: #f5c84b;
+}
+
+.collection-header__intro {
+	display: flex;
+	align-items: center;
 }
 
 .collection-header__total {
@@ -136,18 +142,19 @@ h1 span {
 
 @media (max-width: 575.98px) {
 	.collection-header {
-		align-items: flex-start;
-		flex-direction: column;
-		gap: 1.5rem;
+		align-items: stretch;
+		gap: 0.75rem;
 		padding-top: 2.5rem;
 	}
 
-	.collection-header__total {
-		padding-left: 1rem;
+	.collection-header__intro {
+		min-width: 0;
 	}
 
-	.collection-stats {
-		grid-template-columns: repeat(2, 1fr);
+	.collection-header__total {
+		flex-shrink: 0;
+		min-width: 8rem;
+		padding-left: 1rem;
 	}
 
 	.collection-toolbar {
