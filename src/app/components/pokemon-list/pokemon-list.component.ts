@@ -50,8 +50,6 @@ export class PokemonListComponent implements OnInit {
 
   filterLabel(filter: PokemonFilter): string {
     switch (filter) {
-      case PokemonFilter.HOLO:
-        return 'Holographic';
       case PokemonFilter.DECK_EAU_ACIER:
         return 'Steel-Water Deck';
       case PokemonFilter.DECK_FEU_ELEK:
@@ -64,8 +62,6 @@ export class PokemonListComponent implements OnInit {
   private updateFilteredPokemons(): void {
     if (this.currentFilter === PokemonFilter.WHATEVER) {
       this.filteredPokemons = this.pokemons;
-    } else if (this.currentFilter === PokemonFilter.HOLO) {
-      this.filteredPokemons = this.pokemons.filter((pokemon) => !!pokemon.holo);
     } else {
       this.filteredPokemons = this.pokemons.filter((pokemon) => pokemon.location === this.currentFilter);
     }
