@@ -55,11 +55,11 @@
 <div class="card-info">
   <div class="card-info__heading">
     <strong>{{ pokemon.name }}</strong>
-    <span class="quantity-badge">x{{ pokemon.qty }}</span>
+    <span class="sf-chip-wrap"><span class="sf-chip sf-chip-filled">x{{ pokemon.qty }}</span></span>
   </div>
   <div class="card-info__details">
     <span>{{ pokemon.set?.['name'] || pokemon.set?.['id'] || pokemon.id }}</span>
-    <span *ngIf="pokemon.rarity" class="rarity-badge">{{ pokemon.rarity }}</span>
+    <span *ngIf="pokemon.rarity" class="sf-chip-wrap" style="--chip-color: var(--sf-yellow)"><span class="sf-chip">{{ pokemon.rarity }}</span></span>
   </div>
   <span *ngIf="pokemon.location" class="location-label">{{ pokemon.location }}</span>
 </div>

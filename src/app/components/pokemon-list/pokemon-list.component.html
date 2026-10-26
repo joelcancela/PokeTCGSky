@@ -9,29 +9,28 @@
 </header>
 
 <section class="collection-stats" aria-label="Collection summary">
-  <div class="stat-item">
-    <span class="stat-item__label">Unique cards</span>
+  <div class="stat-item sf-panel">
+    <span class="stat-item__label sf-label">Unique cards</span>
     <strong>{{ pokemons.length }}</strong>
   </div>
-  <div class="stat-item stat-item--blue">
-    <span class="stat-item__label">Steel-Water Deck</span>
+  <div class="stat-item sf-panel stat-item--blue">
+    <span class="stat-item__label sf-label">Steel-Water Deck</span>
     <strong>{{ totalDeckEauAcier }}</strong>
   </div>
-  <div class="stat-item stat-item--red">
-    <span class="stat-item__label">Gengar Deck</span>
+  <div class="stat-item sf-panel stat-item--red">
+    <span class="stat-item__label sf-label">Gengar Deck</span>
     <strong>{{ totalDeckFeuElek }}</strong>
   </div>
 </section>
 
 <section class="collection-toolbar" aria-label="Collection filters">
   <div>
-    <p class="toolbar-label">Show</p>
+    <p class="toolbar-label sf-label">Show</p>
     <div class="filter-list" role="group" aria-label="Filter cards">
       <button
         *ngFor="let filter of pokemonFilters"
         type="button"
-        class="filter-button"
-        [class.filter-button--active]="currentFilter === filter"
+        class="sf-filter"
         [attr.aria-pressed]="currentFilter === filter"
         (click)="setFilter(filter)">
         {{ filterLabel(filter) }}
